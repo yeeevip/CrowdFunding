@@ -1,0 +1,308 @@
+@CHARSET "UTF-8";
+
+
+
+dy, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    margin: 0px;
+    padding: 0px;
+    font: 12px/1.5 "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+.indexBanner {
+    border-bottom: 1px #e4e4e4 solid;
+    overflow: hidden;
+    width: 100%;
+    height: 360px;
+    position: relative;
+    z-index: 1;
+}
+.indexBanner:hover{
+	
+	cursor: pointer
+}
+.indexBannerView{
+	max-width: 1600px;
+	height:360px;
+	overflow:visible;
+	margin:0 auto;
+	position: relative;
+	}
+.indexBanner ul{
+	width:11200px;
+	position:absolute;
+	left:-1600px;
+	top:0;
+	
+	}
+.indexBanner ul li{
+	float:left;	
+	height:360px;
+    list-style: none;	
+	}
+.indexBPage{
+	    position: absolute;
+    width: 1242px;
+    height: 0px;
+    left: 50%;
+    margin-left: -614px;
+    top: 150px;
+	
+}
+
+.indexBPage a{
+	opacity: 0.4;
+    background: url(../img/v3/indexBannerBtn.png) no-repeat;
+    width: 39px;
+    height: 51px;
+    position: absolute;
+}
+.indexBPage a.pre{
+	left:0;
+	background-position: 0px 0px;
+}
+.indexBPage a.next{
+		right:0;
+	background-position: 0px -51px;
+}
+
+.indexBPage a:hover{
+	opacity: 1;
+    
+}
+
+
+div {
+    display: block;
+}
+
+.indexZCWrap {
+	width: 100%;
+    padding-bottom:40px;
+    overflow:hidden;
+}
+.mainInnerBox {
+    width: 1042px;
+    height:100%;
+    margin: 0px auto;
+    display: block;
+    font-size: inherit;
+}
+.indexZCH3 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 26px 40px 9px 0px;
+}
+
+
+
+.indexZCLabel_ul {
+    text-align: center;
+}
+.siteIlB_item {
+    vertical-align: top;
+    font-size: 12px;
+    display: inline-block;
+}
+.indexZCLabel_ul li.geban {
+    margin: 0px 15px;
+}
+.indexZCLabel_ul li.moreA a {
+    color: #50abf2;
+    text-decoration: underline;
+    margin-left: 15px;
+}
+.indexZCLabel_ul li a:hover {
+    color: #50abf2;
+    text-decoration: underline;
+    
+}
+
+
+
+.indCardListWrap {
+    margin-left: -38px;
+}
+.indCardListMoreA {
+    display: block;
+    height: 43px;
+    line-height: 43px;
+    background-color: #f3f3f3;
+    color: #999999;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 19px;
+    border-radius: 5px;
+}
+.indCardListMoreA:hover {
+    background-color: #eee;
+}
+.btn_ALink {
+    text-decoration: none;
+    color: inherit;
+}
+.indCardListWrap {
+    margin-left: -38px;
+    overflow:hidden;
+}
+.indCardItem {
+    width: 320px;
+    border: 1px solid #dcdcdc;
+    height: 485px;
+    border-radius: 5px;
+    float: left;
+    margin: 30px 0px 0px 38px;
+    
+}
+.siteCardItemImgA{
+	height:240px;
+	
+	display: block;
+    
+    
+}
+.siteCardItemImgA>img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.indCardICBox {
+    padding: 0px 19px;
+    background-position: right 96px;
+}
+.indCardICText {
+    height: 139px;
+}
+.siteCardICH3 {
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    color: #222;
+    line-height: 20px;
+    max-height: 40px;
+    overflow: hidden;
+    padding-top: 15px;
+    
+    
+}
+
+.siteCardICH3:hover {
+    text-decoration: underline;
+}
+.siteCardIC_p {
+    color: #888888;
+    line-height: 20px;
+    margin-top: 6px;
+    font-size: 11px;
+    overflow: hidden;
+    
+    
+    
+    
+}
+.siteCardIC_p.ind {
+    height: 60px;
+    
+}
+
+.siteCardFBox {
+    padding: 16px 0px 0px 0px;
+    border-top: 1px dashed #dcdcdc;
+}
+
+.siteCardFLabelBox {
+    background: url(../img/v3/indexDatabg.png) 0px -90px no-repeat;
+    padding-left: 20px;
+    height: 20px;
+    overflow: hidden;
+}
+.siteCardFLabelBox a:hover{
+	
+	    color: #50abf2;
+    text-decoration: underline;
+}
+.siteCardFLabelBox a:first-child {
+    margin-left: 0px;
+}
+.siteCardFLabelBox a {
+    height: 20px;
+    line-height: 20px;
+    margin-left: 7px;
+    font-size: 11px;
+    color: #999999;
+}
+
+.siteCardRatio {
+    height: 6px;
+    border-radius: 3px;
+    background-color: #e4e4e4;
+    margin: 10px 0px 7px 0px;
+    overflow: hidden;
+}
+.siteCardRatio>.siteCardRatioInner {
+    height: 6px;
+    background-color: #50abf2;
+}
+
+.siteCardFData {
+    position: relative;
+    text-align: center;
+}
+.siteCardFData .ftDiv {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    text-align: left;
+}
+.siteCardFData .ftDiv .ftP {
+    color: #ff5001;
+        font-weight: bold;
+}
+.siteCardFData>div .ftP {
+    font-weight: bold;
+    
+}
+p{
+	word-wrap: break-word;
+    word-break: break-all;
+}
+.siteCardFData>div .scP {
+    color: #999999;
+    font-size: 11px;
+}
+.siteCardFData .scDiv {
+    height: 46px;
+    
+}
+.siteCardFData .thDiv {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    text-align: left;
+}
+
+
+
+.SiteGoTopBox {
+    width: 1042px;
+    height: 0px;
+    position: fixed;
+    left: 50%;
+    margin-left: -521px;
+    bottom: 0px;
+    
+}
+
+.SiteGoTopBox a {
+    position: absolute;
+    bottom: 80px;
+    right: -56px;
+    width: 46px;
+    height: 43px;
+    background: url(../img/v3/goTop.png?) no-repeat 0px 0px;
+}
+.SiteGoTopBox a:hover {
+    background-position: 0px -43px;
+}

@@ -1,0 +1,366 @@
+@CHARSET "UTF-8";
+
+
+
+
+
+.bg_login {
+	
+	background-size: cover;
+	min-height: 880px;
+	overflow: hidden; 
+	}
+
+
+.login_form {
+	width: 854px;
+	height: 555px;
+	margin: 0 auto;
+    margin-top: 148px;
+	}
+	
+.login_form .login_main {
+	width: 505px; 
+	height: 100%;
+    }
+
+.login_form .login_side {
+	width: 345px; 
+	height: 100%;
+	}
+	
+
+.login_form .login_t {
+	border-bottom: 1px #13151b solid;
+	height: 66px;
+	line-height: 66px;
+	font-size: 20px;
+	text-align: center;
+	color: #fff;
+	}
+
+.login_form .reg_box {
+	padding: 10px;
+	border-top: 1px #282b36 solid;
+	}
+	
+	
+.tab_login { 
+	height: 30px; 
+	line-height: 30px; 
+	width: 360px; 
+	margin: 0 auto; 
+	margin-top: 20px; 
+	font-size: 18px; 
+	}
+.login_b{
+	margin-left:-150px;
+	font-size:18px;
+	font-weight:bold;
+}
+.tab_login input { 
+	width: 22px; 
+	height: 22px; 
+	vertical-align: middle; 
+	margin-right: 4px; 
+	}
+
+.tab_login_box { 
+	width: 360px; 
+	margin: 0 auto; 
+	}
+
+.tab_login_box li { 
+	position: relative;
+    vertical-align: middle; 
+    line-height: 42px; 
+    height: 42px;
+    margin-top: 20px; 
+    }
+.tab_login_box li i.icon_i1{
+	height:42px;
+	width:28px;
+	position: absolute;
+    left: 20px;
+    
+    font-size: 22px;
+	background:url(../img/v3/icon_1.png) -4px 5px no-repeat;
+}
+.tab_login_box li i.icon_i2{
+	height:42px;
+	width:28px;
+	position: absolute;
+    left: 20px;
+    
+    font-size: 22px;
+	background:url(../img/v3/icon_2.png) -4px 5px no-repeat;
+}
+.tab_login_box li i.icon_i3{
+	height:42px;
+	width:28px;
+	position: absolute;
+    left: 20px;
+    
+    font-size: 22px;
+	background:url(../img/v3/icon_3.png) -4px 5px no-repeat;
+}
+
+.tab_login_box li input.txt { 
+	float: left; 
+	height: 40px; 
+	line-height: 40px; 
+	border: 1px #838285 solid;
+    background: rgba(255, 255, 255, 0.3); 
+    width: 350px; 
+    padding: 0 5px; 
+    color: #fff; 
+    text-indent: 50px; 
+    font-size: 18px; 
+    }
+
+.tab_login_box li input.txt:focus { 
+	background: white; 
+	color: #555; 
+	}
+
+.tab_login_box li .getCodeBtn { 
+	width: 120px; 
+	overflow: hidden; 
+	height: 100%; 
+	background: #2398e6; 
+	font-size: 16px; 
+	color: #fff; 
+	display: inline-block; 
+	top: 0; right: -2px; 
+	position: absolute; 
+	}
+
+
+
+.tab_login_box li.remP { 
+	margin-top: 4px; 
+	font-size: 15px; 
+	color: #85d0f5; 
+	}
+
+.tab_login_box li.remP input {
+	width: 22px; 
+	height: 22px; 
+	vertical-align: middle; 
+	margin-right: 10px; 
+}
+
+
+.tab_login_box li.remP .forgetPwd {
+	color: #fff; 
+	}
+
+.tab_login_box li.remP .forgetPwd:hover { 
+	color: #85d0f5; 
+	}
+
+.tab_login_box li.login_bnt_li {
+	margin-top: 4px; 
+	}
+
+.tab_login_box li .login_btn {
+	width: 100%; 
+	}
+
+.tab_login_box li.login_tips { 
+	text-align: left; 
+	font-size: 16px; 
+	}
+
+.tab_login_box li.login_tips a { 
+	color: #68cdff; 
+	}
+
+.tab_login_box li.login_tips a:hover { 
+	text-decoration: underline; 
+	}
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+.login_form.bindAcc {
+	width: 455px;
+	}
+
+.login_form.bindAcc .login_main {
+	width: 455px;
+	}
+
+.login_form.bindAcc .login_main .tab_login_box {
+	width: 300px;
+	}
+
+.login_form.bindAcc .login_main .tab_login_box li input.txt {
+	width: 290px;
+	}
+
+.login_form.bindAcc .login_main .zj_form_1 label.error {
+	left: 320px;
+	}
+
+.login_form .login_main, .login_form .login_side {
+	background: rgba(0, 0, 0, 0.4);
+	border-radius: 6px; }
+
+
+
+
+
+
+.login_btn {
+	height: 45px;
+	line-height: 45px;
+	border: none;
+	background: url(../img/btn_bg.jpg) 0 0 repeat-x;
+	text-align: center;
+	width: 305px;
+	border-radius: 5px;
+	font-size: 20px;
+	color: #fff;
+	cursor: pointer;
+   }
+
+.login_btn:hover {
+	color: #fff;
+   }
+.zx_btn:hover {
+    opacity: 1;
+  
+}
+   
+
+.otherLogin { 
+	padding: 80px 10px; 
+	text-align: center; 
+	}
+
+.otherLogin .other_icon { 
+	display: inline-block; 
+	width: 226px; 
+	height: 46px;
+	 border: 1px #8d8b8c solid; 
+	 line-height: 46px; 
+	 text-align: left; 
+	 margin-bottom: 20px; 
+	 overflow: hidden; 
+	 border-radius: 5px; 
+	 color: #fff; 
+	 }
+
+.otherLogin .other_icon span { 
+	margin-left: 10px; 
+	font-size:17px;
+	}
+
+.otherLogin .other_icon .zczj { 
+	color: #fff; 
+	font-size: 24px; 
+	vertical-align: middle; 
+	display: inline-block; 
+	width: 54px; 
+	height: 46px; 
+	border-right: 1px #8d8b8c solid; 
+	text-align: center; 
+	}
+.icon_qq{
+	background: url(../img/v3/icon_QQ.png) 6px -1px no-repeat;
+}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*注册*/
+	
+.login_form .reg_box {
+    padding: 10px;
+    border-top: 1px #282b36 solid;
+}
+.login_form .reg_box li:first-child{
+	margin-top: 0px;
+	height:44px;
+	
+}
+
+.login_form .reg_box li {
+    position: relative;
+    padding-left: 110px;
+    height: 34px;
+    line-height: 34px;
+    margin-top: 24px;
+}
+.login_form .reg_box .login_name {
+    font-size: 18px;
+    color: #68cdff;
+    display: inline-block;
+    width: 110px;
+    text-align: right;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.login_form .reg_box .login_val {
+    width: 305px;
+    margin-left: 10px;
+}
+.login_form .reg_box .login_val .txt {
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px #616063 solid;
+    width: 295px;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 5px;
+    color: #fff;
+    border-radius: 3px;
+        font-size: 16px;
+}
+.login_form .reg_box .login_val .txt:focus {
+    background: white;
+    color: #555;
+}
+.login_form .reg_box input{
+    font-size: 1em;
+    box-sizing: content-box;
+    outline: none;
+}	
+.login_form .reg_box .login_val .txt.sort_txt {
+    width: 130px;
+}
+.login_form .reg_box .login_val.imgcode img {
+    vertical-align: top;
+    margin-left: 10px;
+}
+.login_form .reg_box li.note {
+    font-size: 15px;
+    margin-top: 10px;
+    color: #fff;
+}
+.login_form .reg_box li.note label input {
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
+}
+.login_form .reg_box li.note label a {
+    color: #85d0f5;
+}	
+
+
+

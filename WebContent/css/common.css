@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+
+body, div, dl, dt, dd, ul, ol, li, pre, code, form, input, fieldset, legend, textarea, p, blockquote, th, td {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font: 12px/1.5 "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+table{
+border-collapse: collapse;
+    border-spacing: 0;
+}
+h3{
+	word-break: break-all;
+	    font-size: 100%;
+    font-weight: normal;
+}
+div,b,p{
+    word-wrap: break-word;
+    word-break: break-all;
+    font-style: normal;
+    font-weight: normal;
+    
+}
+a,li,input {
+    font-family: 微软雅黑;
+   
+    list-style-type:none;
+    text-decoration:none;
+
+    cursor: pointer;
+
+
+    color: inherit;
+    
+}
+    
+}
+
+.bg_white {
+    background: #fff;
+    overflow: hidden;
+    width: 100%;
+}
+
+.l {
+    float: left;
+   }
+.r {
+    float: right;
+    display: block;
+   }

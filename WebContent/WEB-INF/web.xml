@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>CrowdFounding</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jhtml</welcome-file>
+  </welcome-file-list>
+<session-config>
+	<session-timeout>30</session-timeout>
+</session-config>
+
+
+
+
+
+
+<!-- 登陆 -->
+  <servlet>
+    <servlet-name>loginAction</servlet-name>
+    <servlet-class>campsg.zhongchou.action.LoginAction</servlet-class>
+   
+    <init-param>
+      <param-name>error_url</param-name>
+      <param-value>include/login.jsp</param-value>
+    </init-param>
+    <init-param>
+      <param-name>index_url</param-name>
+      <param-value>index.jhtml</param-value>
+    </init-param>
+  </servlet>
+    <servlet-mapping>
+    <servlet-name>loginAction</servlet-name>
+    <url-pattern>/login.jhtml</url-pattern>
+  </servlet-mapping>
+  
+    <!-- 注销 -->
+    <servlet>
+    	<servlet-name>logoutAction</servlet-name>
+    	<servlet-class>campsg.zhongchou.action.LogoutAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    	<servlet-name>logoutAction</servlet-name>
+    	<url-pattern>/logout.jhtml</url-pattern>
+    </servlet-mapping>
+  
+  <!-- 注册 -->
+  <servlet>
+  	<servlet-name>registerAction</servlet-name>
+  	<servlet-class>campsg.zhongchou.action.RegisterAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>registerAction</servlet-name>
+  	<url-pattern>/register.jhtml</url-pattern>
+  </servlet-mapping>
+  
+  <!-- 首页 -->
+  <servlet>
+  	<servlet-name>indexAction</servlet-name>
+  	<servlet-class>campsg.zhongchou.action.IndexAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>indexAction</servlet-name>
+  	<url-pattern>/index.jhtml</url-pattern>
+  </servlet-mapping>
+  
+  
+  <!-- 项目详情页 -->
+  <servlet>
+  	<servlet-name>projectAction</servlet-name>
+  	<servlet-class>campsg.zhongchou.action.ProjectAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>projectAction</servlet-name>
+  	<url-pattern>/project.jhtml</url-pattern>
+  </servlet-mapping>
+  
+<!-- 验证码 -->
+  <servlet>
+    <servlet-name>code</servlet-name>
+    <servlet-class>campsg.zhongchou.action.CodeAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>code</servlet-name>
+    <url-pattern>/code.jhtml</url-pattern>
+  </servlet-mapping>
+  
+  
+  <!-- 搜索页面 -->
+  <servlet>
+  	<servlet-name>searchAction</servlet-name>
+  	<servlet-class>campsg.zhongchou.action.SearchAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>searchAction</servlet-name>
+  	<url-pattern>/search.jhtml</url-pattern>
+  </servlet-mapping>
+  
+  <!-- 发起项目 -->
+  <servlet>
+  	<servlet-name>issueProjectAction</servlet-name>
+  	<servlet-class>campsg.zhongchou.action.IssueProjectAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>issueProjectAction</servlet-name>
+  	<url-pattern>/issueProject.jhtml</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  <!-- 管理员页面begin -->
+  <servlet>
+  	<servlet-name>adminLoginAction</servlet-name>
+  	<servlet-class>campsg.zhongchou.action.AdminLoginAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>adminLoginAction</servlet-name>
+  	<url-pattern>/admin</url-pattern>
+  </servlet-mapping>
+  <!-- 管理员页面end -->
+  
+   <!-- 项目管理begin -->
+   <servlet>
+   	<servlet-name>adminProjectAction</servlet-name>
+   	<servlet-class>campsg.zhongchou.action.adminProjectAction</servlet-class>
+   </servlet>
+   <servlet-mapping>
+   	<servlet-name>adminProjectAction</servlet-name>
+   	<url-pattern>/admin/adminProject.jhtml</url-pattern>
+   	<url-pattern>/admin/auditsProject.jhtml</url-pattern>
+   	<url-pattern>/shenhe.jhtml</url-pattern>
+   	<url-pattern>/passAudits.jhtml</url-pattern>
+   </servlet-mapping>
+   
+   
+   <!-- 用户管理begin -->
+   <servlet>
+   	<servlet-name>adminUserAction</servlet-name>
+   	<servlet-class>campsg.zhongchou.action.adminUserAction</servlet-class>
+   </servlet>
+   <servlet-mapping>
+   	<servlet-name>adminUserAction</servlet-name>
+   	<url-pattern>/admin/adminUser.jhtml</url-pattern>
+   </servlet-mapping>
+
+   
+   
+    <!-- 新评论 -->
+    <servlet>
+    	<servlet-name>newCommentAction</servlet-name>
+    	<servlet-class>campsg.zhongchou.action.NewCommentAction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    	<servlet-name>newCommentAction</servlet-name>
+    	<url-pattern>/newComment.jhtml</url-pattern>
+    </servlet-mapping>
+    
+    <!-- 过滤器 编码 -->
+    	<filter>
+		<filter-name>encodingFilter</filter-name>
+		<filter-class>campsg.zhongchou.filter.EncodingFilter</filter-class>
+		
+		<init-param>
+			<param-name>encoding</param-name>
+			<param-value>utf-8</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>encodingFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	
+	  <!-- 过滤器 编码 -->
+	     	<filter>
+		<filter-name>userFilter</filter-name>
+		<filter-class>campsg.zhongchou.filter.UserFilter</filter-class>
+		<init-param>
+			<param-name>checked</param-name>
+			<param-value>/faqi.jsp;personal_information.jsp;showPerson.jhtml;</param-value>
+		</init-param>
+		<init-param>
+			<param-name>encoding</param-name>
+			<param-value>utf-8</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>userFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	
+		  <!-- 用户资料修改-->
+ <servlet>
+	<servlet-name>reviseUserAction</servlet-name>
+	<servlet-class>campsg.zhongchou.action.ReviseUserAction</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ 	<servlet-name>reviseUserAction</servlet-name>
+ 	<url-pattern>/reviseUser.jhtml</url-pattern>
+ </servlet-mapping>
+	 <!-- 用户资料修改-->
+	 <servlet>
+	 	<servlet-name>showPersonAction</servlet-name>
+	 	<servlet-class>campsg.zhongchou.action.ShowPersonAction</servlet-class>
+	 </servlet>
+	 <servlet-mapping>
+	 	<servlet-name>showPersonAction</servlet-name>
+	 	<url-pattern>/showPerson.jhtml</url-pattern>
+	 	<url-pattern>/getMyProjectPageShow</url-pattern>
+	 </servlet-mapping>
+	 
+	 <!-- 文件上传 -->
+ <servlet>
+ 	<servlet-name>uploadServletAction</servlet-name>
+ 	<servlet-class>campsg.zhongchou.action.UploadServletAction</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ 	<servlet-name>uploadServletAction</servlet-name>
+ 	<url-pattern>/upload_cover.jhtml</url-pattern>
+ 	<url-pattern>/upload_repay.jhtml</url-pattern>
+ 	<url-pattern>/upload_detail.jhtml</url-pattern>
+ 	<url-pattern>/upload_IDphoto.jhtml</url-pattern>
+ </servlet-mapping>
+	
+	<!-- 订单 -->
+	<servlet>
+		<servlet-name>orderAction</servlet-name>
+		<servlet-class>campsg.zhongchou.action.OrderAction</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>orderAction</servlet-name>
+		<url-pattern>/buyerOrder.jhtml</url-pattern>
+		<url-pattern>/sellerOrder.jhtml</url-pattern>
+		<url-pattern>/saveOrder.jhtml</url-pattern>
+		<url-pattern>/toPay</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>orderPageAction</servlet-name>
+		<servlet-class>campsg.zhongchou.action.OrderPageAction</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>orderPageAction</servlet-name>
+		<url-pattern>/orderPage</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>provinceAction</servlet-name>
+		<servlet-class>campsg.zhongchou.action.ProvinceAction</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>provinceAction</servlet-name>
+		<url-pattern>/getProvince</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>projectProcessPageAction</servlet-name>
+		<servlet-class>campsg.zhongchou.action.ProjectProcessPageAction</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>projectProcessPageAction</servlet-name>
+		<url-pattern>/projectProcessPage</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>updateProjectProgressAction</servlet-name>
+		<servlet-class>campsg.zhongchou.action.UpdateProjectProgressAction</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>updateProjectProgressAction</servlet-name>
+		<url-pattern>/updateProjectProgressAction</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>receiveInfoAction</servlet-name>
+		<servlet-class>campsg.zhongchou.action.ReceiveInfoAction</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>receiveInfoAction</servlet-name>
+		<url-pattern>/addReceiveInfo</url-pattern>
+		<url-pattern>/deleteReceiveInfo</url-pattern>
+		<url-pattern>/queryReceiveInfo</url-pattern>
+		<url-pattern>/ReceiveInfoPage</url-pattern>
+		<url-pattern>/setDefaultReceiveInfo</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+  
+</web-app>

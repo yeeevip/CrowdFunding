@@ -1,0 +1,532 @@
+@CHARSET "UTF-8";
+body, div, dl, dt, dd, ul, ol, li, pre, code, form,input, fieldset, legend,textarea, p, blockquote, th, td {
+    margin: 0px;
+    padding: 0px;
+    font: 12px/1.5 "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+div {
+    display: block;
+}
+
+.SiteGoTopBox {
+    width: 1042px;
+    height: 0px;
+    position: fixed;
+    left: 50%;
+    margin-left: -521px;
+    bottom: 0px;
+}
+.SiteGoTopBox a {
+    position: absolute;
+    bottom: 80px;
+    right: -56px;
+    width: 46px;
+    height: 43px;
+    background: url(../../img/v3/goTop.png?) no-repeat 0px 0px;
+}
+.btn_ALink {
+    text-decoration: none;
+    color: inherit;
+}
+.SiteGoTopBox a:hover {
+    background-position: 0px -43px;
+}
+/*页面顶部*/
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.siteHTopBox a:hover {
+    color: #50abf2;
+}
+.siteHLoginBox a:hover{
+	text-decoration: underline;
+}
+
+
+
+
+.siteHTopBox {
+    height: 35px;
+    line-height: 35px;
+    background-color: #313539;
+}
+
+.mainInnerBox {
+    width: 1042px;
+    margin: 0px auto;
+    display: block;
+    font-size: inherit;
+}
+
+.siteHtelBox {
+    color: #ccc;
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    margin-right: 3px;
+    padding-left: 15px;
+    background: url(../../../v3/static/images/siteHTopBg.png?v=1476329743) 0px -274px no-repeat;
+}
+
+
+.siteHtelBox span {
+    color: #cccccc;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+
+
+.siteHRight {
+    float: right;
+    height: 35px;
+    color: #ccc;
+}
+
+.siteHRight>* {
+    float: left;
+    min-height: 35px;
+}
+.siteHCodeImgBox {
+    position: relative;
+    margin-left: 15px;
+    z-index: 11;
+}
+.siteHCodeA {
+    height: 36px;
+    line-height: 36px;
+    color: inherit;
+    display: block;
+    cursor: default;
+    padding: 0 10px;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    position: relative;
+    z-index: 11;
+    cursor: pointer;
+}
+.btn_ALink {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.siteHCodeImgBox span {
+    background: url(../../../v3/static/images/siteHTopBg.png?v=1476329743) no-repeat -7px 0px;
+    width: 14px;
+    height: 18px;
+    float: left;
+    margin: 10px 6px 0 0;
+}
+
+
+.siteHCodeImgBox span.tel {
+    background-position: 0 -347px;
+}
+
+
+.siteHCodeImgBox .siteHCodeA i {
+    width: 7px;
+    height: 4px;
+    display: inline-block;
+    background: url(../../../v3/static/images/siteHTopBg.png?v=1476329743) no-repeat -7px 0px;
+    vertical-align: top;
+    margin: 16px 0px 0px 3px;
+    -webkit-transition: -webkit-transform 100ms;
+    transition: transform 100ms;
+}
+
+
+
+
+
+
+.siteHCodeInner {
+    position: absolute;
+    left: 0px;
+    top: 35px;
+    border: 1px solid #dedede;
+    width: 121px;
+    height: 136px;
+    background-color: #fff;
+    text-align: center;
+    z-index: 10;
+    display: none;
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+}
+
+
+.siteHCodeInner>p {
+    height: 27px;
+    line-height: 27px;
+    color: #333;
+}
+
+fieldset, img {
+    border: 0;
+    vertical-align: top;
+}
+
+.siteH_feedbackA {
+    height: 35px;
+    line-height: 35px;
+    margin-left: 15px;
+}
+
+
+.siteHCodeImgBox {
+    position: relative;
+    margin-left: 15px;
+    z-index: 11;
+}
+
+span.wx {
+    background-position: 0 -365px;
+}
+.siteHCodeImgBox span {
+    background: url(../../../v3/static/images/siteHTopBg.png?v=1476329743) no-repeat -7px 0px;
+    width: 14px;
+    height: 18px;
+    float: left;
+    margin: 10px 6px 0 0;
+}
+
+.siteHCodeImgBox .siteHCodeA i {
+    width: 7px;
+    height: 4px;
+    display: inline-block;
+    background: url(../../../v3/static/images/siteHTopBg.png?v=1476329743) no-repeat -7px 0px;
+    vertical-align: top;
+    margin: 16px 0px 0px 3px;
+    -webkit-transition: -webkit-transform 100ms;
+    transition: transform 100ms;
+}
+
+
+.siteHCodeB {
+    height: 35px;
+    line-height: 35px;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.siteMTopBox {
+    height: 70px;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+.relative {
+    position: relative;
+}
+.mainInnerBox {
+    width: 1042px;
+    margin: 0px auto;
+    display: block;
+    font-size: inherit;
+}
+
+.siteMIndexA {
+    float: left;
+    width: 160px;
+    height: 70px;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+a, .btn {
+    cursor: pointer;
+}
+.siteMIndexA img {
+    width: 100%;
+    height: 70px;
+}
+fieldset, img {
+    border: 0;
+    vertical-align: top;
+}
+
+.siteHNavBox {
+    float: left;
+}
+
+.siteHNavItem {
+    float: left;
+    position: relative;
+    z-index: 10;
+}
+
+.siteHNavItem .siteHNavItemA {
+    height: 70px;
+    line-height: 70px;
+    width: 60px;
+    padding: 0px 5px;
+    display: block;
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.siteM_fqBtn {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    width: 90px;
+    text-align: center;
+    color: #fff;
+    margin: 20px 0px 0px 24px;
+    font-size: 14px;
+    border-radius: 3px;
+    #55b5ff 0%,#2e86cb 100%);
+    background: linear-gradient(to bottom, #55b5ff 0%,#2e86cb 100%);
+}
+
+
+.siteHLoginBox {
+    margin-top: 20px;
+    float: right;
+    padding-left: 12px;
+}
+.siteHLoginBox a {
+    color: #50abf2;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+}
+.siteHLoginBox .line {
+    margin: 9px 6px 0;
+    height: 12px;
+    width: 1px;
+    float: left;
+    background-color: #cfcfcf;
+}
+
+
+.other-login {
+    float: right;
+    margin-top: 20px;
+}
+
+.other-login a, .other-login a:hover {
+    background: url(../../../v3/static/images/other_login.png?v=1476329743);
+}
+.other-login a {
+    float: left;
+    width: 28px;
+    height: 28px;
+    margin-right: 6px;
+}
+
+.other-login .wechat {
+    background-position: -34px 0;
+}
+.other-login .sina {
+    background-position: -68px 0;
+}
+
+
+
+
+
+
+
+.siteMSearch {
+    width: 240px;
+    height: 28px;
+    border: 1px solid #ececec;
+    background-color: #ececec;
+    float: right;
+    margin: 20px 0 0px 0px;
+    border-radius: 3px;
+    position: absolute;
+    right: 130px;
+    
+    transition: width .5s ease 0s;
+    overflow: hidden;
+}
+.sitePHBox {
+    position: relative;
+}
+.siteIlB_box {
+    font-size: 0px;
+}
+
+
+.itemSearch-focus{
+	width:348px;
+	background:#fff;
+	border-color:#55acef;
+	box-shadow:0 0 3px rgba(85,172,239,75);	
+}
+
+.siteIlB_box>*, .siteIlB_item {
+    vertical-align: top;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.search-input {
+    margin: 0px 3px 0 3px;
+   width:88%;
+    height: 28px;
+    line-height: 20px;
+    border:none;
+}
+.search-input input {
+    background-color: transparent;
+    font-size: 12px;
+    width: 100%;
+    height: 100%;
+    line-height: 20px;
+    
+    /*********/
+    border: none;
+    
+    
+}
+.search-input input:focus{
+	
+	outline:none;
+}
+
+.siteIlB_item {
+    vertical-align: top;
+    font-size: 12px;
+    display: inline-block;
+}
+.fr {
+    float: right;
+}
+.siteMSearchA {
+    background: #ececec url(../../img/v3/siteHTopBg.png) 8px -318px no-repeat;
+    font-size: 0;
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.itemSearch-focus.siteMSearchA{
+	background-position:8px -534px;
+}
+
+.sitePHTip {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    color: #999999;
+    background-color: transparent;
+    height: 20px;
+    line-height: 20px;
+    display: none;
+}
+
+.input-hinter {
+    display: none;
+    position: absolute;
+    top: 28px;
+    left: -1px;
+    border: 1px solid #e0e0e0;
+    border-top: none;
+    background: white;
+    z-index: 1000;
+    width: 348px;
+    border-radius: 0 0 3px 3px;
+    padding: 10px 0;
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+}
+
+.my-zc {
+    margin: 20px 22px 0 0;
+    border: 1px solid #51aaf2;
+    display: inline-block;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 14px;
+    color: #51aaf2;
+    height: 28px;
+    line-height: 28px;
+    width: 88px;
+    background-color: #fff;
+}
+
+
+
+
+
+/*页面底部*/
+
+.siteFooterBox {
+    background-color: #24282f;
+}
+.mainInnerBox {
+    width: 1043px;
+    margin: 0px auto;
+    display: block;
+    font-size: inherit;
+}
+.siteMFooter {
+    height: 45px;
+    padding-top: 40px;
+    text-align: center;
+    box-shadow: 0 -1px 0 rgba(0,0,0,.15) inset;
+    border-bottom: 1px solid rgba(255,255,255,.05);
+}
+.siteMFooterABox {
+    height: 20px;
+    line-height: 20px;
+    color: #485263;
+}
+.siteMFooterABox a {
+    color: #616c7f;
+    text-decoration: none;
+}
+.siteMFooterABox span {
+    margin: 0px 10px;
+}
+
+.siteBF_yqlj {
+    text-align: center;
+    width: 730px;
+    margin: 0px auto;
+    padding: 20px 0;
+}
+
+.siteBF_yqlj a {
+    color: #353e4a;
+    height: 20px;
+    line-height: 20px;
+    margin: 0px 4px 0 0;
+}
+
+
+.siteBFooter_p {
+    text-align: center;
+    font-size: 10px;
+    color: #353e4a;
+    padding: 15px 20px 20px 20px;
+    background-color: #1e2229;
+}

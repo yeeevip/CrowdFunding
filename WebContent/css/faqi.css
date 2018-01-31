@@ -1,0 +1,448 @@
+@CHARSET "UTF-8";
+.pj_fq{
+	min-height:500px;
+	background-color: #f5f6f8;
+	
+	
+}
+.fq_top{
+	    border-top: 1px solid #eee;
+    padding: 37px 0 33px 0;
+    overflow: hidden;
+}
+.fq_topBox{
+	width: 1023px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.fq_topBox ul{
+	float: left;
+    border-radius: 5px;
+    border: 1px solid #d9d9d9;
+    border-rigrht:none;
+    width: 629px;
+    margin-left: 150px;
+    overflow: hidden;
+    list-style: none;
+    padding-left: 0px;
+}
+.fq_topBox ul li{
+	font-size: 16px;
+    font-weight: bold;
+    height: 53px;
+    line-height: 53px;
+    text-align: center;
+    background: #fff;
+    
+    float: left;
+    width: 156px;
+    border-right: 1px solid #d9d9d9;
+    color: #333;
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    
+}
+.fq_topBox ul li.curr{
+	background: #eee;
+    color: #999;
+}
+.fq_topBox ul li:hover{
+	    background-color: #f7f8fa;
+}
+.preview{
+	float: left;
+    margin-left: 10px;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    width: 96px;
+    color: #333;
+    background: #fff;
+    text-decoration:none;
+    
+    font-size: 16px;
+    font-weight: bold;
+    height: 53px;
+    line-height: 53px;
+    text-align: center;
+}
+.fq_bodyBox{
+	position: relative;
+    margin: 0 auto;
+    top: 0;
+    height: 100%;
+    min-height: 800px;
+    overflow: hidden;
+}
+.fq_bodyMainBox{
+	width: 1023px;
+    margin: 0 auto;
+    
+}
+.fq_body1{
+	position: relative;
+    border: 1px solid #f1f1f1;
+    background-color: #fff;
+    padding: 24px 0 50px;
+    margin-bottom:5px;
+    
+   
+
+}
+.fq_body1_content{
+	padding-top:20px;
+	position:relation;
+	width:100%;
+}
+
+.body1_h2Box{
+	border-bottom: 2px solid #e3e3e3;
+    height: 40px;
+    margin-left:60px;
+    margin-right:60px;
+}
+.fq_body1_h2{
+	
+
+    font-size: 18px;
+    color: #333;
+    float: left;
+    font-weight: bold;
+    line-height: 40px;
+    margin-bottom:0px;
+    margin-top: 0px;
+    
+}
+.fq_body1_i{
+	font-size: 14px;
+	padding-left:30px;
+    line-height: 40px;
+    color: #333;
+     padding-left:204px;
+}
+.fq_lxItem{
+	    padding: 5px 205px 0 225px;
+	    overflow:hidden;
+	    
+}
+.fq_lxItem a{
+	min-width: 65px;
+    cursor: pointer;
+    padding: 0 15px;
+    height: 32px;
+    border: 3px solid #dedede;
+    margin: 0 16px 11px 0;
+    float: left;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+        color: inherit;
+    text-decoration: none;
+}
+.fq_lxItem a.cur,.fq_lxItem a:hover{
+	background: url(../img/v3/lanuch-sec.png) no-repeat top right;
+    border-color: #50abf2;
+}
+.fq_body_ul{
+	padding-bottom: 40px;
+    width: 612px;
+    list-style:none;
+    margin: 0 auto;
+    padding:0;
+}
+.fq_body_ul li label{
+	
+	width: 85px;
+    margin-right: 10px;
+    float: left;
+    line-height:30px;
+    font-size: 14px;
+    text-align: right;
+    color: #333;
+}
+.fq_body_ul li{
+	 position:relative;
+	 padding-top:10px;
+	 padding-bottom:10px;
+}
+.set_cover{
+	float: left;
+    width: 67px;
+    height: 63px;
+    background: url(../img/v3/set-cover.png) no-repeat;
+    border:none;
+}
+.set-cover-intro{
+	
+    font-size:12px;
+    padding-top: 12px;
+    display: inline-block;
+    color: #b1b1b1;
+    
+}
+.fq_body_ul li input{
+	font-size: 12px;
+    margin-right: 0;
+    width:450px;
+    height:30px;
+    padding:0px 10px;
+        vertical-align: middle;
+}
+.body_text{
+	padding: 0 15px;
+    margin-top: 24px;
+}
+.text_top{
+	height: 40px;
+    line-height: 40px;
+    color: #666;
+
+}
+.fs16{
+	font-size: 16px;
+	float:left;
+	
+}
+.delete_it{
+	width: 62px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    background-color: #50abf2;
+    margin-right: 12px;
+    text-decoration: none;
+    float:right;
+}
+.text_title{
+	margin: 0 0 10px 0;
+}
+.text_title input{
+	width: 620px;
+	font-size: 12px;
+    margin-right: 0;
+    border: 1px solid #ccc;
+    
+    padding: 10px;
+}
+.upload_detital_pic{
+	    width: 668px;
+    position: relative;
+}
+.upload_detital_pic img{
+	max-width: 100%;
+    height: auto;
+}
+    
+.text_body textarea{
+	margin: 0 0 10px 0;
+height: 132px;
+    width: 620px;
+        font-size: 12px;
+    margin-right: 0;
+        padding: 10px;
+}
+.content_picBox{
+	    margin-top: 20px;
+    padding-bottom: 55px;
+}
+.pic_top{
+	background-color: #f2f9ff;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #ebebeb;
+    font-size: 15px;
+    color: #666;
+    padding: 0 15px;
+}
+.content_pic_span{
+	    font-size: 16px;
+	    float:left;
+}
+.pic_top a{
+	    margin-right: 12px;
+	    background-color: #50abf2;
+	        width: 62px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    float:right;
+    cursor: pointer;
+    margin-top:10px;
+}
+.pic_bottom_p{
+	    text-align: center;
+    color: #999;
+    margin-top: 20px;
+}
+.input_btn{
+	    height: 60px;
+    width: 100px;
+        position: static;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.button_pic{
+	height: 60px;
+    line-height: 60px;
+    width: 100px;
+    float: left;
+    width: 67px;
+    height: 63px;
+    background: url(../img/v3/set-cover.png) no-repeat;
+}
+.hb_tips{
+	margin:0 auto;
+    font-size: 14px;
+    color: #938a63;
+    padding: 7px 10px;
+    line-height: 24px;
+    border: 1px solid #ece6cf;
+    border-radius: 5px;
+    background-color: #fff9e1;
+    width:660px;
+}
+.return-tit{
+	font-size: 16px;
+    font-weight: bold;
+    padding: 30px 0 14px 0;
+    
+}
+.hb_save{
+	
+	    margin-bottom: 20px;
+	    text-align: center;
+}
+
+.small {
+    width: 124px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+}
+
+.fq_footer{
+	    margin: 0 auto;
+    width: 1024px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.mr12 {
+    margin-right: 12px;
+}
+.btn-blue {
+    background-color: #50abf2;
+}
+.big {
+    width: 238px;
+    height: 46px;
+    line-height: 46px;
+    
+    font-size: 16px;
+}
+.btn {
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    -webkit-transition: opacity .8s ease;
+}
+.btn-grey {
+    background-color: #999;
+}
+.hb_jixu{
+	padding: 10px 0 8px 0;
+    color: #50abf2;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+.hb_jixu a{
+text-decoration: underline;
+    font-size: 14px;
+}
+/**基本信息****/
+.fq_body_ul .cur{
+	    background-position: 0 -29px;
+}
+.fq_body_ul i{
+	width: 19px;
+    cursor: pointer;
+    height: 18px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+    background: url(/CrowdFounding/img/v3/service-icon.png) no-repeat;
+}
+.fq_body_ul .material-list{
+	margin-top: 20px;
+    position: relative;
+    overflow:hidden;
+}
+.fq_body_ul .material-list span{
+	    width: 260px;
+    text-align: right;
+    float: left;
+    line-height: 64px;
+    font-size: 14px;
+}
+.fq_body_ul .material-list .material-list-pic{
+	    width: 64px;
+    height: 64px;
+    float: left;
+    margin-left: 19px;
+ 
+    overflow: hidden;
+}
+.fq_body_ul .material-list .material-list-pic img{
+	width: 100%;
+    height: 100%;
+}
+.fq_body_ul .material-list .uplodify_in_repeat_0person-button{
+	    position: absolute;
+	
+    left: 0px;
+    top: 18px;
+    cursor: pointer;
+    width: 72px;
+    height: 27px;
+    line-height: 27px;
+    font-size: 13px;
+    background-color: rgb(54, 154, 232);
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+}
+.fq_body1 .identity-type-hd{
+	    height: 34px;
+    border-radius: 2px;
+    border: 1px solid #50abf2;
+    margin:0 auto;
+    width: 120px;
+}
+.fq_body1 .identity-type-hd a{
+	float: left;
+    padding: 0 16px;
+    line-height: 34px;
+    font-size: 14px;
+    color: #50abf2;
+    cursor: pointer;
+}
+.fq_body1 .identity-type-hd a.cur{
+	    background-color: #50abf2;
+    color: #fff;
+}
+.fq_body_ul .province-selector select{
+	height: 35px;
+    width: 235px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 2px 1px rgba(4,0,0,0.05) inset;
+    float: left;
+    /* margin-left: 13px; */
+    padding: 0px 10px;
+}

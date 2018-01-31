@@ -1,0 +1,558 @@
+@CHARSET "UTF-8";
+div{
+	
+	overflow:hidden;
+}
+.grzxBox{
+	background-color:#f6f7f8;
+	padding:34px 0px 30px 0px;
+	overflow:hidden;
+
+}
+
+.personalBox{
+	width: 1042px;
+    margin: 0px auto;
+    
+    font-size: inherit;
+}
+.personalBox_left{
+	width:122px;
+	float:left;
+}
+.personalBox_left_box{
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:15px;
+	margin-right:15px;
+	
+}
+.personalBox_left_box h3{
+    font-weight: bold;
+    font-size:15px;
+}
+.personalBox_left_m{
+	padding-top:9px
+	
+}
+.personalBox_left_m a:hover{
+	color: #50abf2 !important;
+    text-decoration: none;
+}
+.personalBox_left_m a:focus{
+	color: #50abf2 !important;
+    text-decoration: none;
+}
+.personalBox_right{
+	width: 920px;
+	float:right;
+	overflow:hidden;
+	padding-bottom:10px;
+    background-color: #fff;
+	
+}
+
+
+.personalBox_right_box{
+	padding-top:10px;
+	padding-left:12px;
+	padding-bottom:14px;
+	padding-right:12px;
+}
+
+.right_box1_ul{
+	
+	border-bottom: 3px solid #ededed;
+    border-radius: 5px;
+    margin-top: 15px;
+    background-color: #fff;
+    padding-left:50px;
+    
+    overflow:hidden;
+}
+.right_box1_ul>li{
+    height: 57px;
+    line-height: 57px;
+    cursor: pointer;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    
+    padding: 0px 20px;
+}
+.grzxTabItem{
+	
+	
+}
+
+.grzx_ddList{
+	margin: 17px 0px 0px 0px;
+
+}
+
+.myLaunch_table{
+	
+}
+
+.grzx_ddList thead tr {
+    border: 1px solid #eceaea;
+    height: 37px;
+}
+.grzx_ddList thead tr td{
+	background-color: #eaebec;
+	margin:0px auto;
+	text-align:center;
+}
+
+.grzx_ddList table{
+	padding-left:15px;
+    
+    width:100%;
+    font-size:12px;
+        border-collapse: collapse;
+    border-spacing: 0;
+}
+.grzx_ddList table tbody{
+	    border: 1px solid #f0f0f0;
+	    display: table-row-group;
+    vertical-align: middle;
+}
+
+
+
+
+/*****个人资料编辑***/
+.ziLiao_form ul li:first-child {
+    margin-top: 30px;
+}
+.ziLiao_form ul li{
+	margin-top:25px;
+}
+.ziLiao_form ul li label{
+	    height: 34px;
+    line-height: 34px;
+    float: left;
+    text-align: right;
+    font-size: 14px;
+    width: 120px;
+	
+}
+.ziLiao_form ul li input{
+	min-height: 34px;
+    height:20px;
+    margin-left: 13px;
+    
+}
+.ziLiao_form ul li select{
+	width:80px;
+    height: 29px;
+    margin-top: 5px;
+    margin-left:13px;
+    font-size: 14px;
+}
+.ziLiao_box_submit{
+	width: 126px;
+    height: 38px;
+    background-color: #50abf2;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 3px;
+}
+.ziLiao_form ul li label span{
+	color: red;
+    padding-right: 5px;
+	
+}
+
+/***头像*****/
+.grzx_touxiang{
+	width: 828px;
+    padding-left: 80px;
+    padding-bottom: 20px;
+    min-height: 500px;
+}
+.touxiang_sc{
+	position: relative;
+    height: 520px;
+}
+.touxiang_sc_l{
+	float: left;
+    width: 400px;
+    height: 500px;
+    left: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.touxiang_sc_l p{
+	 
+    padding-top:2px;
+    padding-bottom:20px;
+}
+.touxiang_yl{
+	border: 1px solid #d7d7d7;
+    background: #F2F2F2;
+    width: 350px;
+    height: 350px;
+}
+.touxiang_sc_r{
+	    float: left;
+    display: inline-block;
+    width: 260px;
+    height: 400px;
+    left: 420px;
+    margin-top: 20px;
+}
+.touxiang_sc_r p{
+	padding-top:2px;
+	padding-bottom:20px;
+}
+.img_box{
+	width:204px;
+	height:204px;
+	border: 1px rgba(0,0,0,.4) solid;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+.img_box.img_contbox{
+	    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+.sc_file{
+	    position: absolute;
+    display: inline-block;
+    background: #50abf2;
+    border: 1px solid #50abf2;
+    border-radius: 4px;
+    padding: 4px 18px;
+    overflow: hidden;
+    color: white;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 20px;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.sc_file input{
+	    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    width: 110px;
+}
+
+/****密码修改****/
+
+.xiugai_tishi{
+	line-height: 30px;
+    background-color: #ffffe1;
+    border: 1px #ffce89 solid;
+    margin: 10px 0px 10px 0px;
+    padding-left: 10px;
+    font-size: 12px;
+}
+.img-pass{
+	    width: 12px;
+    line-height: 12px;
+    padding-top:9px;
+    padding-right:5px;
+    padding-left:6px;
+    
+    display: inline-block;
+}
+.xiugai_form{
+	
+	padding-left:40px;
+}
+.xiugai_form ul li:first-child {
+    margin-top: 30px;
+}
+.xiugai_form ul li{
+	margin-top:25px;
+}
+.xiugai_form ul li label{
+	
+	    height: 34px;
+    line-height: 34px;
+    float: left;
+    text-align: right;
+    font-size: 14px;
+    width: 120px;
+}
+.xiugai_form ul li input{
+	width:145px;
+	min-height: 34px;
+    height:20px;
+    margin-left: 13px;
+    
+}
+
+
+/*******个人中心项目管理******/
+.xiangmu_search{
+	padding: 20px 23px 18px 22px;
+    background: #ffffff;
+    
+    overflow:hidden;
+}
+.xiangmu_search li{
+	
+    float: left;
+    height: 30px;
+    line-height: 30px;
+}
+.xiangmu_search li input{
+	margin-right: 12px;
+    border: 1px solid #eaecf2;
+    height: 28px;
+    line-height: 28px;
+    width: 170px;
+    text-indent: 10px;
+}
+.pd-type {
+    float: left;
+    border: 1px solid #eaecf2;
+    width: 136px;
+    height: 28px;
+    line-height: 28px;
+    color: #858a9d;
+    margin-right: 12px;
+}
+.search_btn{
+	padding: 7px 21px;
+    cursor: pointer;
+    width: 75px;
+    height: 28px;
+    background: #5caff0;
+    text-align: center;
+    border-radius: 5px;
+    line-height: 28px;
+    color: #ffffff;
+}
+.grzx_xiangmu_table table{
+	margin:0px auto;
+	width:98%;
+	border-collapse: collapse;
+    border-spacing: 0;
+}
+.grzx_xiangmu_table table thead{
+	    background: #f6f7fb;
+    line-height: 34px;
+    height: 34px;
+    color: #858a9d;
+
+}
+.grzx_xiangmu_table table tbody{
+	
+	
+    line-height: 34px;
+    height: 34px;
+    color: #858a9d;
+}
+.grzx_xiangmu_table table tbody tr.u_tbg_tr{
+		background: #fff;
+    line-height: 35px;
+    height: 35px;
+}
+.grzx_xiangmu_table table tbody tr.p_tbg_tr{
+			background: #fff;
+    line-height: 35px;
+    height: 35px;
+}
+.grzx_xiangmu_table table tbody tr.u_tbg_tr td{
+	text-align: center;
+    border: 1px #e4e4e4 solid;	
+	
+}
+.grzx_xiangmu_table table tbody tr.u_tbg_tr td a:hover{
+	color: #50abf2;
+}
+
+.grzx_xiangmu_table table tbody tr.p_tbg_tr td{
+	text-align: center;
+    border: 1px #e4e4e4 solid;	
+	
+}
+.grzx_xiangmu_table table tr.bg_tr{
+	background: #f7f7f7;
+    line-height: 35px;
+    height: 35px;
+}
+.grzx_xiangmu_table table tr.bg_tr td{
+    text-align: center;
+        border: 1px #e4e4e4 solid;
+        
+}
+/************个人中心我的评论********/
+.grzx_pinglunBox{
+	text-align: center;
+	padding-top: 20px;
+}
+
+/***********个人中心收货地址**************/
+.grzx_shAddress{
+	    padding: 0px 23px 30px 23px;
+
+}
+.new_shdzBtn{
+	    font-size: 18px;
+    color: #fff;
+    display: block;
+    width: 190px;
+    height: 45px;
+    border-radius: 3px;
+    background-color: #55acef;
+    margin: 20px auto 0px auto;
+}
+
+/***********我的发起**************/
+.grzx_ddList table tbody tr.trfirst {
+    height: 10px;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+.grzx_ddList table tbody .ftTr td span.dingdan{
+	margin-left: 18px;
+}
+.grzx_ddList table tbody .ftTr{
+	background-color: #f6f7f8;
+    height: 35px;
+    text-indent: 15px;
+    border-top: 1px solid #e4e4e4;
+    border-left: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;}
+    .grzx_ddList table tbody .ftTr td  a.ftTr_delA {
+    	width: 18px;
+    height: 18px;
+    background: url(/CrowdFounding/img/v3/grzxBg.png) no-repeat 0px -72px;
+    margin: 0px auto;
+        text-decoration: none;
+   display:block;
+    }
+     .grzx_ddList table tbody .ftTr .ftTr_delA:hover{
+         background-position: 0px -90px;
+         cursor: pointer;
+     }
+     .grzx_ddList table tbody .inforTr{
+     	border: 1px solid #e4e4e4;
+    border-top: 1px solid #f0f0f0;
+     }
+      .grzx_ddList table tbody .inforTr td{
+      	    padding: 28px 0px;
+      }
+          .grzx_ddList table tbody .inforTr td>div{
+          	min-height: 60px;
+          }
+.ddImgBox{
+	    width: 80px;
+    height: 60px;
+    float: left;
+    margin-left: 10px;
+}
+.ddImgText{
+	margin-left: 10px;
+    float: left;
+    width: 180px;
+}
+.ddImgText a{
+	display: block;
+    line-height: 20px;
+    height: 40px;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+.inforText_p.gray{
+	color: #999;
+
+}
+.inforText_p{
+		 height: 20px; 
+    text-align: center;
+    min-height: 20px;
+}
+.inforRatioBox{
+	    height: 20px;
+    width: 140px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.inforRatioBox span{
+	height: 20px;
+    line-height: 20px;
+    float: left;
+    min-width: 30px;
+    margin-left: 5px;
+    text-align: center;
+}
+.inforRatioBox .inforRatio{
+	    width: 62px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: #e4e4e4;
+    overflow: hidden;
+    margin: 7px 0px 7px 0px;
+    float: left;
+    margin-left: 18px;
+}
+.inforRatioBox .inforRatio .inner{
+	    height: 6px;
+    background-color: #55acef;
+}
+.grzx_ddList .btnTd{
+	    text-align: center;
+    position: relative;
+}
+.grzx_ddList .btnTd .operations{
+	    width: 100px;
+    margin: 0 auto;
+}
+.ddLastbtn_A{
+	    width: 72px;
+    height: 26px;
+    line-height: 26px;
+    display: inline-block;
+    margin: 0 0 5px 0;
+    cursor: pointer;
+    background-color: #ff6520;
+    border-radius: 3px;
+    color: #fff;
+}
+.ddLastbtn_B {
+	    color: #ff6520;
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+        width: 45px;
+}
+/***********我的订单**************/
+
+/****项目管理****/
+.grzx_xiangmu_table table tbody tr.trfirst{
+	height: 7px;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+
+
+
+.receiveinfotable table tbody tr.trfirst {
+    height: 7px;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+.receiveinfotable table tbody tr.u_tbg_tr {
+    background: #fff;
+    line-height: 35px;
+    height: 35px;
+}
+.receiveinfotable table tbody tr.u_tbg_tr td {
+    text-align: center;
+    border: 1px #e4e4e4 solid;
+}

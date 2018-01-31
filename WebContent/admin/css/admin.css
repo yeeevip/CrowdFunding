@@ -1,0 +1,185 @@
+@CHARSET "UTF-8";
+
+/*********登陆界面********/
+.mainBox{
+	width:100%;
+	height:100%;
+	
+}
+.a_top{
+	    background-color: #24282f;
+	    width:100%;
+	    height:50px;
+	   
+	    line-height: 50px;
+	   
+	    
+}
+.a_top span{
+	    color: #cccccc;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 25px;
+    padding-top:30px;
+}
+.login_admin_f{
+	background: rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+    width: 505px;
+    height: 90%;
+    margin:0px auto;
+}
+.a_bottom{
+	 background-color: #24282f;
+	    width:100%;
+	    height:50px;
+	   
+	    line-height: 50px;
+}
+
+
+/**********后台管理***********/
+.welinfo {
+    height: 32px;
+    line-height: 32px;
+    padding-bottom: 8px;
+}
+.welinfo b {
+    padding-left: 8px;
+}
+.welinfo a {
+    padding-left: 15px;
+    color: #3186c8;
+}
+.welinfo i {
+    font-style: normal;
+    padding-left: 8px;
+}
+.project-checked{
+	padding: 0px 23px 0 22px;
+    background: #ffffff;
+}
+.project-checked{
+    color: #55acef;
+    text-decoration: underline;
+    margin: 0 5px;
+    padding-bottom:10px;
+}
+.checked_ed{
+	padding-left:10px;
+}
+.project-checked a:hover{
+    text-decoration: underline;
+}
+
+.m-page{
+	
+	overflow: hidden;
+    position: relative;
+    margin-top: 20px;
+    padding: 10px 0;
+    height: 37px;
+}
+.wraper{
+	
+    margin-left:60%;
+}
+.item1{
+	float:left;
+	    width: 172px;
+    font-weight: 400;
+       
+}
+.item1 li input{
+	background:#f7f7f7;
+	border-color:1px #e4e4e4 solid;
+	border-radius: 5px;
+	    color: #858a9d;
+}
+.item1 li input:focus{
+	background: #5caff0;
+	    color: #ffffff;
+}
+.item1-num{
+	position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding-right:10px;
+    margin-top:8px;
+    text-decoration: none;
+    font-size: 14px;
+    float:left;
+}
+.total{
+	float:left;
+	color: #999;
+	line-height: 37px;
+}
+.item2{
+	float:left;
+}
+.i_text{
+	
+	color: #999;
+	line-height: 37px;
+}
+.i_input{
+	    width: 35px;
+    border: solid 1px #ededed;
+    height: 21px;
+    text-align: center;
+}
+.i_span{
+	height:22px;
+	width:40px;
+	    background: #f7f7f7;
+    border-color: 1px #e4e4e4 solid;
+    border-radius: 5px;
+    color: #858a9d;
+}
+.item2 input:focus{
+	background: #5caff0;
+	    color: #ffffff;
+}
+
+
+.table_checkbox_box{
+	width:20px;
+	height:20px;
+	
+
+
+	
+	
+}
+.table_checkbox_box input{
+margin:0 auto;
+background:#858a9d;
+
+
+
+}
+.table_checkbox{
+	width:15px;
+	height:15px;
+
+
+	
+}
+
+.grzx_xiangmu_table table tbody tr.u_tbg_tr td:first-child{
+	text-align: center;
+    border: none;	
+	
+}
+.grzx_xiangmu_table table tbody tr.p_tbg_tr td:first-child{
+	text-align: center;
+    border: none;	
+	
+}
+
+.grzx_xiangmu_table table tr.bg_tr td:first-child{
+    text-align: center;
+        border: none;
+        
+}

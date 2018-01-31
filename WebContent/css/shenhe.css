@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+.fq_body_ul li span{
+	float:left;
+	width:85px;
+	font-size:15px;
+}
+.basicInfo{
+	
+	overflow:hidden;
+	
+}
+.imgInfo{
+	height:350px;
+	overflow:hidden;
+	width:930px;
+	margin:0 auto;
+}
+.imgInfo>div{
+	width:310px;
+	float:left;
+}
+.imgInfo>div span{
+	width:10px;
+}
+.imgInfo_item{
+	border:1px solid gray;
+	width:300px;
+	height:300px;
+}

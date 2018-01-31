@@ -1,0 +1,255 @@
+@CHARSET "UTF-8";
+.cf_searchTop{
+	background-color: #f6f7f8;
+    padding: 28px 0 18px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.searchTBox{
+	width: 1042px;
+    margin: 0px auto;
+    display: block;
+    font-size: inherit;
+}
+.searchTMainBox{
+	
+}
+.searchB_lib{
+	margin-bottom: 10px;
+}
+.searchB_lib label{
+	float: left;
+    height: 22px;
+    line-height: 22px;
+    color: #999999;
+    width: 67px;
+    margin-right: 10px;
+}
+.searchB_lib a{
+	height: 22px;
+    line-height: 22px;
+    padding: 0px 10px;
+    border-radius: 3px;
+    margin: 10px 0px 0px 5px;
+    
+}
+.searchB_lib a.cur{
+	background-color: #50abf2;
+    color: #fff;
+}
+.searchB_lib a:hover{
+	color: #50abf2;
+}
+.searchB_lib a b{
+	width: 10px;
+    height: 11px;
+    display: inline-block;
+    vertical-align: top;
+    background: url(../img/v3/listFilterBg.png) no-repeat 0px 0px;
+    margin: 7px 0px 0px 3px;
+}
+.searchB_lib a:hover b{
+	background-position: 0 -22px;
+}
+
+.searchItem{
+	    width: 1042px;
+    margin: 0px auto;
+    display: block;
+    font-size: inherit;
+    
+}
+.searchIMainBox{
+	margin-left: -18px;
+	overflow:hidden;
+}
+.searchCard{
+	width: 245px;
+    border: 1px solid #dcdcdc;
+    height: 413px;
+    border-radius: 5px;
+    float: left;
+    margin: 20px 0px 0px 18px;
+    overflow: hidden;
+}
+.siteCardItemImgA{
+	height: 183px;
+	display: block;
+    overflow: hidden;
+    position: relative;
+}
+.siteCardItemImgA>img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.searchCtext{
+	    padding: 0px 12px;
+    background-position: right 75px;
+        background-repeat: no-repeat;
+}
+.searchCT_p{
+	height: 108px;
+    padding-top: 15px;
+}
+.searchCT_p h3{
+	max-height: 40px;
+    overflow: hidden;
+    margin-bottom:0px;
+    margin-top:0px;
+}
+.siteCTH3{
+	display: inline;
+    padding-top:0;
+    
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    color: #222;
+    line-height: 20px;
+    max-height: 40px;
+    overflow: hidden;
+    
+   
+    text-decoration: none;
+    word-break: break-all;
+}
+.searchCT_p h3 a:hover{
+	    text-decoration: underline;
+}
+.siteCardIC_p{
+	color: #888888;
+    line-height: 20px;
+    margin-top: 6px;
+    font-size: 11px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.searchCFooter{
+	    padding: 16px 0px 0px 0px;
+    border-top: 1px dashed #dcdcdc;
+}
+.searchCF_bq{
+	background: url(../img/v3/indexDatabg.png) 0px -90px no-repeat;
+    padding-left: 20px;
+    height: 20px;
+    overflow: hidden;
+}
+.searchCF_bq a:first-child{
+	margin-left: 0px;
+}
+.searchCF_bq a{
+	height: 20px;
+    line-height: 20px;
+    margin-left: 7px;
+    font-size: 11px;
+    color: #999999;
+}
+.searchCF_bq a:hover{
+	text-decoration: underline;
+    color: #50abf2;
+}
+.searchCF_jd{
+	height: 6px;
+    border-radius: 3px;
+    background-color: #e4e4e4;
+    margin: 10px 0px 7px 0px;
+    overflow: hidden;
+}
+.jd_now{
+	height: 6px;
+    background-color: #50abf2;
+}
+.searchCF_je{
+	position: relative;
+    text-align: center;
+}
+.searchCF_je>.ftDiv {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    text-align: left;
+}
+.searchCF_je>.ftDiv> .ftP {
+    color: #ff5001;
+}
+
+.searchCF_je>div .ftP {
+    font-weight: bold;
+}
+.searchCF_je>.scDiv {
+    height: 46px;
+    display: inline-block;
+}
+.searchCF_je>div .scP {
+    color: #999999;
+    font-size: 11px;
+}
+.searchCF_je> .thDiv {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    text-align: left;
+}
+.searchPage{
+	width: 1042px;
+    margin: 0px auto;
+    display: block;
+    font-size: inherit;
+}
+.searchPBox{
+	padding: 48px 0px 53px 0px;
+	    text-align: center;
+    font-size: 0px;
+}
+.searchPBox a:first-child {
+    margin-left: 0px;
+}
+.searchPBox a {
+    display: inline-block;
+    font-size: 12px;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-left: 8px;
+    text-decoration: none;
+    color: #333;
+    vertical-align: top;
+    text-align: center;
+}
+.searchPBox a.normalPage {
+    font-size: 14px;
+    min-width: 18px;
+    padding: 0px 10px;
+}
+.searchPBox a.cur {
+    background-color: #50abf2;
+    color: #fff;
+    border-color: #50abf2;
+}
+.searchPBox a:hover {
+    background-color: #50abf2;
+    color: #fff;
+    border-color: #50abf2;
+}
+.searchPBox span {
+    display: inline-block;
+    height: 40px;
+   
+    vertical-align: top;
+    font-size: 12px;
+}
+.searchPBox span.dianhaoSpan {
+    margin-left: 8px;
+    line-height: 35px;
+    letter-spacing: 2px;
+}
+.searchPBox .nextPage {
+    width: 38px;
+    background: url(../img/v3/siteTFooterBg.png) 0px -166px no-repeat;
+       
+}
+.searchPBox .nextPage:hover {
+    background-position: 0px -242px;
+}
