@@ -1,6 +1,6 @@
 @CHARSET "UTF-8";
 
-#calender-mask {
+#calendar-mask {
 	position: fixed;
 	left: 0px;
 	top: 0px;
@@ -14,7 +14,7 @@
 	margin: auto
 }
 
-.calender-wrap {
+.calendar-wrap {
 	-webkit-animation: clafade .3s ease;
 	-moz-animation: clafade .3s ease;
 	animation: clafade .3s ease;
@@ -29,11 +29,11 @@
 	z-index: 1000
 }
 
-.calender-wrap {
+.calendar-wrap {
 	border: 1px solid #e2e2e2
 }
 
-.calender-wrap:after {
+.calendar-wrap:after {
 	content: '';
 	display: inline-block;
 	border-left: 7px solid transparent;
@@ -46,7 +46,7 @@
 	top: -7px
 }
 
-.calender-wrap:before {
+.calendar-wrap:before {
 	content: '';
 	display: inline-block;
 	border-left: 6px solid transparent;
@@ -59,25 +59,25 @@
 	z-index: 10
 }
 
-.calender-caption {
+.calendar-caption {
 	height: 35px;
 	border-bottom: 1px solid #ddd;
 	z-index: 2;
 	background: #eee
 }
 
-.calender-content {
+.calendar-content {
 	position: relative;
 	overflow: hidden
 }
 
-.calender-content:after {
+.calendar-content:after {
 	content: '';
 	display: block;
 	clear: both
 }
 
-.calender-cell {
+.calendar-cell {
 	cursor: pointer;
 	float: left;
 	width: 14.28571428%;
@@ -90,20 +90,20 @@
 	border-bottom: 1px solid #eee
 }
 
-.calender-cell:hover {
+.calendar-cell:hover {
 	background: #eee
 }
 
-.calender-caption .calender-cell:hover {
+.calendar-caption .calendar-cell:hover {
 	background: none
 }
 
-.calender-cell-dark {
+.calendar-cell-dark {
 	cursor: no-drop;
 	color: #b9b9b9
 }
 
-.calender-caption .calender-cell {
+.calendar-caption .calendar-cell {
 	height: 35px;
 	line-height: 35px;
 	font-size: 13px;
@@ -111,7 +111,7 @@
 	font-weight: bold
 }
 
-.calender-header {
+.calendar-header {
 	text-align: center;
 	line-height: 35px;
 	text-align: center;
@@ -124,7 +124,7 @@
 	font-size: 14px
 }
 
-#calender-prev,#calender-next {
+#calendar-prev,#calendar-next {
 	text-decoration: none;
 	display: block;
 	width: 14.2857%;
@@ -138,42 +138,42 @@
 	color: #555
 }
 
-#calender-prev,#calender-next {
+#calendar-prev,#calendar-next {
 	color: #999;
 	font-size: 16px
 }
 
-#calender-prev:hover,#calender-next:hover {
+#calendar-prev:hover,#calendar-next:hover {
 	background: #eee;
 	border-radius: 5px;
 	color: #222
 }
 
-#calender-next {
+#calendar-next {
 	left: auto;
 	right: 0%
 }
 
-#calender-year,#calender-mon {
+#calendar-year,#calendar-mon {
 	cursor: pointer;
 	padding: 2px 4px;
 	border-radius: 3px;
 	margin: 0 3px;
 }
 
-#calender-year:hover,#calender-mon:hover {
+#calendar-year:hover,#calendar-mon:hover {
 	background: #eee
 }
 
-.calender-list {
+.calendar-list {
 	overflow: hidden
 }
 
-.calender-list2,.calender-list3 {
+.calendar-list2,.calendar-list3 {
 	display: none
 }
 
-.calender-year-cell,.calender-mon-cell {
+.calendar-year-cell,.calendar-mon-cell {
 	width: 32.41%;
 	float: left;
 	border-radius: 4px;
@@ -183,24 +183,24 @@
 	border: 1px solid #fff
 }
 
-.calender-year-cell:hover,.calender-mon-cell:hover {
+.calendar-year-cell:hover,.calendar-mon-cell:hover {
 	background: #eee;
 	cursor: pointer
 }
 
-.calender-cell.active,.calender-year-cell.active,.calender-mon-cell.active
+.calendar-cell.active,.calendar-year-cell.active,.calendar-mon-cell.active
 	{
 	background: #23acf1;
 	color: #fff
 }
 
-.calender-cell.active:hover,.calender-year-cell.active:hover,.calender-mon-cell.active:hover
+.calendar-cell.active:hover,.calendar-year-cell.active:hover,.calendar-mon-cell.active:hover
 	{
 	background: #23acf1;
 	color: #fff
 }
 
-.calender-button {
+.calendar-button {
 	border-top: 1px solid #eee;
 	width: 100%;
 	margin-top: -1px;
@@ -208,7 +208,7 @@
 	overflow: hidden
 }
 
-.calender-button a {
+.calendar-button a {
 	display: block;
 	text-align: center;
 	padding: 0px 15px;
@@ -224,19 +224,19 @@
 	text-decoration: none
 }
 
-.calender-button a:hover {
+.calendar-button a:hover {
 	background: #0084c9
 }
 
-.calender-wrap.year .calender-list,.calender-wrap.month .calender-list {
+.calendar-wrap.year .calendar-list,.calendar-wrap.month .calendar-list {
 	display: none
 }
 
-.calender-wrap.year .calender-list2 {
+.calendar-wrap.year .calendar-list2 {
 	display: block
 }
 
-.calender-wrap.month .calender-list3 {
+.calendar-wrap.month .calendar-list3 {
 	display: block
 }
 
@@ -267,3 +267,4 @@ transform
 1
 }
 }
+
