@@ -1,5 +1,5 @@
 # CrowdFunding
-自己开发的众筹平台(java ee  + jsp ,学习java的第一个自己做的项目，很基础的语言 )
+自己开发的众筹平台(java ee  + jsp ,学习java的第一个自己做的项目，很基础的语言，纯html，servlet )
 
 欢迎完善  ， 可以把问题提交上来 一起完善 ，我的 QQ ： 1324459373
 
