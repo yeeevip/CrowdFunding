@@ -127,8 +127,8 @@
    	<servlet-name>adminProjectAction</servlet-name>
    	<url-pattern>/admin/adminProject.jhtml</url-pattern>
    	<url-pattern>/admin/auditsProject.jhtml</url-pattern>
-   	<url-pattern>/shenhe.jhtml</url-pattern>
-   	<url-pattern>/passAudits.jhtml</url-pattern>
+   	<url-pattern>/admin/shenhe.jhtml</url-pattern>
+   	<url-pattern>/admin/passAudits.jhtml</url-pattern>
    </servlet-mapping>
    
    

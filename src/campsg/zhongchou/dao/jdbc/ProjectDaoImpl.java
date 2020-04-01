@@ -182,8 +182,8 @@ public class ProjectDaoImpl extends JDBCBase implements ProjectDao{
 			sql.append(" and user_id="+project.getUser_id());
 		}
 
-		if(project.getIs_audits()!=null&&project.getIs_audits()==2){
-			sql.append(" and is_audits!=0 ");
+		if(project.getIs_audits()!=null){
+			sql.append(" and is_audits ="+project.getIs_audits());
 		}
 		
 		sql.append("  order by launch_date_raising desc");

@@ -6,13 +6,13 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Insert title here</title>
-<link type="text/css" rel="stylesheet" href="css/faqi.css">
-<link type="text/css" rel="stylesheet" href="css/project.css">
-<link type="text/css" rel="stylesheet" href="css/common.css">
-<link type="text/css" rel="stylesheet" href="css/shenhe.css">
-<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-<link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath }MS/static/vendors/sweetalert/sweetalert.css">
-<script type="text/javascript" src="/CrowdFoundingMS/static/vendors/sweetalert/sweetalert.min.js"></script>
+<link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath }/css/faqi.css">
+<link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath }/css/project.css">
+<link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath }/css/common.css">
+<link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath }/css/shenhe.css">
+<script type="text/javascript" src="${pageContext.request.contextPath }/js/jquery-3.1.1.min.js"></script>
+<link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath }/js/sweetalert/sweetalert.css">
+<script type="text/javascript" src="${pageContext.request.contextPath }/js/sweetalert/sweetalert.min.js"></script>
 <script type="text/javascript">
 	$(function(){
 		
@@ -21,7 +21,7 @@
 		$(".shenheBtn").click(function(){
 
 			$.ajax({
-				url		:		"/CrowdFoundingMS/admin/crowdfunding/dmwhproject/"+project_id+"/passAudits",
+				url		:		"passAudits.jhtml?is_audits=1&project_id=" + project_id,
 				async	:		true,
 				cache	:		false,
 				data	:		{},
@@ -34,7 +34,7 @@
 		$(".shenheBtnreject").click(function(){
 
 			$.ajax({
-				url		:		"/CrowdFoundingMS/admin/crowdfunding/dmwhproject/"+project_id+"/rejectAudits",
+				url		:		"passAudits.jhtml?is_audits=0&project_id=" + project_id,
 				async	:		true,
 				cache	:		false,
 				data	:		{},

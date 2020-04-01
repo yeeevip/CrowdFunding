@@ -7,16 +7,16 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
   <head>
-	<link type="text/css" rel="stylesheet" href="css/project.css">
-	<link type="text/css" rel="stylesheet" href="css/common.css">
-	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-	<script type="text/javascript" src="js/layer/layer.js"></script>
+	<link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath }/css/project.css">
+	<link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath }/css/common.css">
+	<script type="text/javascript" src="${pageContext.request.contextPath }/js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="${pageContext.request.contextPath }/js/layer/layer.js"></script>
 <script type="text/javascript">
 var userSession = ${sessionScope.user == null};
 
 </script>
-<script type="text/javascript" src="js/common.js"></script>
-<script type="text/javascript" src="js/project.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath }/js/common.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath }/js/project.js"></script>
   </head>
   
   <body>

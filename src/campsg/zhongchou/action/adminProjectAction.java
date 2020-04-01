@@ -64,8 +64,10 @@ public class adminProjectAction extends HttpServlet {
 		}
 		
 		List<Project> projects = null;
+        Project query = new Project();
+        query.setIs_audits(0);
 		try {
-			projects = projectDaoImpl.getProjectByIs_audits(0);
+			projects = projectDaoImpl.getProjectByCondition(query,adminPage,10000);
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -89,18 +91,26 @@ public class adminProjectAction extends HttpServlet {
 			e.printStackTrace();
 		}
 		req.setAttribute("project", project);
-		req.getRequestDispatcher("/shenhe.jsp").forward(req, resp);
+		String pageJsp = "/shenhe.jsp";
+		req.getRequestDispatcher(pageJsp).forward(req, resp);
 
 	}
 	if(action.equals("/passAudits.jhtml")){
 		int project_id = Integer.parseInt(req.getParameter("project_id"));
+
+		int is_audits = Integer.parseInt(req.getParameter("is_audits"));
+
+		String res = "操作成功！";
 		
 		try {
-			projectDaoImpl.passAudits(project_id, 1);
+			projectDaoImpl.passAudits(project_id, is_audits);
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+			res = "操作失败---->"+e.getMessage();
 		}
+
+		resp.getWriter().print(res);
 		
 	}
 	

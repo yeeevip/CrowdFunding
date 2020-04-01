@@ -6,9 +6,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Insert title here</title>
-<link type="text/css" rel="stylesheet" href="css/common.css">
-<link type="text/css" rel="stylesheet" href="css/search.css">
-<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath }/css/common.css">
+<link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath }/css/search.css">
+<script type="text/javascript" src="${pageContext.request.contextPath }/js/jquery-3.1.1.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
 	

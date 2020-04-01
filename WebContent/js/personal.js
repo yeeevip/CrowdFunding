@@ -208,9 +208,9 @@ $(document).ready(function(){
                         			'<div class="operations">';
                         		
                         		if(Ojson[i].is_pay==1){
-                        			html = html+'<a href="javascript:;" target="_blank" class="ddLastbtn_A">确认收货</a><a href="javascript:;" target="_blank" class="ddLastbtn_A">我要投诉</a></td></tr>';
+                        			html = html+'<a href="javascript:;" class="ddLastbtn_A">确认收货</a><a href="javascript:;" class="ddLastbtn_A">我要投诉</a></td></tr>';
                         		}else{
-                        			html = html+'<a href="javascript:toPay('+Ojson[i].id+');" target="_blank" class="ddLastbtn_A">去支付</a></td></tr>';
+                        			html = html+'<a href="javascript:toPay('+Ojson[i].id+');" class="ddLastbtn_A">去支付</a></td></tr>';
                         		}
                         		
                         		
@@ -255,7 +255,7 @@ $(document).ready(function(){
 							'<td>'+Ojson[i].receiveInfo.address+'</td>'+
 							'<td>'+Ojson[i].receiveInfo.phone+'</td>'+
 							'<td>'+payState+'</td>'+
-							'<td><a href="javascript:;" target="_blank" class="search_btn">发货</a></td>'+
+							'<td><a href="javascript:;" target="" class="search_btn">发货</a></td>'+
 							
 					'</tr>');
 				}
@@ -399,6 +399,8 @@ $(document).ready(function(){
 
 //更新项目最新状态
 function goProjectProcess(project_id){
+
+	debugger
 
 	layer.open({
 	      type: 2,

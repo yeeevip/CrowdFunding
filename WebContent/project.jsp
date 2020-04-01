@@ -6,10 +6,10 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>${p.title }</title>
-<link type="text/css" rel="stylesheet" href="css/project.css">
-<link type="text/css" rel="stylesheet" href="css/common.css">
-<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-<script type="text/javascript" src="js/project.js"></script>
+<link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath }/css/project.css">
+<link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath }/css/common.css">
+<script type="text/javascript" src="${pageContext.request.contextPath }/js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath }/js/project.js"></script>
 <script type="text/javascript">
 var userSession = ${sessionScope.user == null};
 </script>

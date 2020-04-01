@@ -4,15 +4,15 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>个人信息</title>
-<link type="text/css" rel="stylesheet" href="css/personal.css">
-<link type="text/css" rel="stylesheet" href="css/common.css">
-<link type="text/css" rel="stylesheet" href="css/project.css">
-<link type="text/css" rel="stylesheet" href="css/calender/calender.css">
-<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-<script type="text/javascript" src="js/layer/layer.js"></script>
-<script type="text/javascript" src="js/date/calender.js"></script>
-<script type="text/javascript" src="js/personal.js"></script>
-<script type="text/javascript" src="js/common.js"></script>
+<link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath }/css/personal.css">
+<link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath }/css/common.css">
+<link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath }/css/project.css">
+<link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath }/css/calender/calender.css">
+<script type="text/javascript" src="${pageContext.request.contextPath }/js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath }/js/layer/layer.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath }/js/date/calender.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath }/js/personal.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath }/js/common.js"></script>
 
 
 <script type="text/javascript">
@@ -162,7 +162,7 @@ $(document).ready(function(){
                         		<td><div><p class="inforText_p gray">不可结算</p></div></td>
                         		<td class="btnTd">
                         			<div class="operations">
-                        			<a href="javascript:goProjectProcess(${p.project_id });" target="_blank" class="ddLastbtn_A">更新最新进展</a>
+                        			<a href="javascript:goProjectProcess(${p.project_id });" target="" class="ddLastbtn_A">更新最新进展</a>
                         			<!-- <a href="javascript:;" target="_blank" class="ddLastbtn_B">编辑</a>
                         			<a href="javascript:;" target="_blank" class="ddLastbtn_B">预览</a></div> -->
                         		</td>

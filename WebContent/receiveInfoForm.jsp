@@ -4,14 +4,14 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link type="text/css" rel="stylesheet" href="css/faqi.css">
-<link type="text/css" rel="stylesheet" href="css/common.css">
-<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-<script type="text/javascript" src="js/jquery.uploadify.min.js"></script>
-<script type="text/javascript" src="js/layer/layer.js"></script>
-<script type="text/javascript" src="js/faqi.js"></script>
-<script type="text/javascript" src="js/common.js"></script>
-<script type="text/javascript" src="js/personal.js"></script>
+<link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath }/css/faqi.css">
+<link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath }/css/common.css">
+<script type="text/javascript" src="${pageContext.request.contextPath }/js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath }/js/jquery.uploadify.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath }/js/layer/layer.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath }/js/faqi.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath }/js/common.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath }/js/personal.js"></script>
 
 <script type="text/javascript">
 $(document).ready(function(){

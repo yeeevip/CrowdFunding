@@ -164,7 +164,7 @@ $(document).ready(function(){
 		            		"<td></td>"+
 		            		"<td></td>"+
 		            		"<td>"+project[i].is_audits+"</td>"+
-		            		"<td><a target='_blank' href='/shenhe.jhtml?id="+project[i].project_id+"'>去审核</a></td>"+
+		            		"<td><a target='_blank' href='shenhe.jhtml?id="+project[i].project_id+"'>去审核</a></td>"+
 		            	"</tr>");
 				
 				}
