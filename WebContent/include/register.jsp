@@ -17,7 +17,7 @@
 			<div class="login_main l">
 				<div class="login_t">注册</div>
 				<div class="login_con">
-					<form action="/${pageContext.request.contextPath }/register.jhtml" method="post" id="regForm" class="zj_form" novalidate="novalidate">
+					<form action="${pageContext.request.contextPath }/register.jhtml" method="post" id="regForm" class="zj_form" novalidate="novalidate">
 						<ul class="reg_box">
 							<li><i style="font-size:20px;font-weight:bold;line-height:55px;color:#fff;">${err_msg }${both_error }${code_error }</i></li>
 						

@@ -18,8 +18,8 @@ public class LogoutAction extends HttpServlet {
 		// TODO Auto-generated method stub
 		//强制销毁session
 		req.getSession().invalidate();
-		//跳转到登陆页面
-		resp.sendRedirect("/CrowdFounding");
+		//跳转首页
+		resp.sendRedirect(req.getContextPath());
 	}
 
 	@Override

@@ -34,7 +34,7 @@
 		$(".shenheBtnreject").click(function(){
 
 			$.ajax({
-				url		:		"passAudits.jhtml?is_audits=0&project_id=" + project_id,
+				url		:		"passAudits.jhtml?is_audits=-1&project_id=" + project_id,
 				async	:		true,
 				cache	:		false,
 				data	:		{},

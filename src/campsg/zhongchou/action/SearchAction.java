@@ -37,7 +37,7 @@ public class SearchAction extends HttpServlet {
 		ProjectDaoImpl pjd = new ProjectDaoImpl();
 		Project project = new Project();
 		project.setTitle(key);
-		project.setIs_audits(2);
+		project.setIs_audits(1);
 		if(projectType==null||projectType.equals("")){
 			project.setCategory_id(0);
 		}else{
