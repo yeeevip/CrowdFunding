@@ -17,7 +17,7 @@
 			<div class="login_main l">
 				<div class="login_t">注册</div>
 				<div class="login_con">
-					<form action="/CrowdFounding/register.jhtml" method="post" id="regForm" class="zj_form" novalidate="novalidate">
+					<form action="/${pageContext.request.contextPath }/register.jhtml" method="post" id="regForm" class="zj_form" novalidate="novalidate">
 						<ul class="reg_box">
 							<li><i style="font-size:20px;font-weight:bold;line-height:55px;color:#fff;">${err_msg }${both_error }${code_error }</i></li>
 						
@@ -43,7 +43,7 @@
 							<span class="login_name">验证码</span>
 							<div class="login_val imgcode">
 							<input type="text" name="code" id="code" class="txt sort_txt" placeholder="输入图形验证码">
-							<img class="getCodeBtn" style="cursor: pointer; background:#fff; vertical-align:middle" src="/CrowdFounding/code.jhtml" id="VerifyImage2" title="看不清？点击换一个" onclick="javascript:this.src='/CrowdFounding/code.jhtml;'+new Date().getMilliseconds()">
+							<img class="getCodeBtn" style="cursor: pointer; background:#fff; vertical-align:middle" src="${pageContext.request.contextPath }/code.jhtml" id="VerifyImage2" title="看不清？点击换一个" onclick="javascript:this.src='${pageContext.request.contextPath }/code.jhtml;'+new Date().getMilliseconds()">
 							</div>
 							</li>
 							<!--

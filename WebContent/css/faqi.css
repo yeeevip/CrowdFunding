@@ -376,7 +376,7 @@ text-decoration: underline;
     display: inline-block;
     vertical-align: middle;
     margin-right: 15px;
-    background: url(/CrowdFounding/img/v3/service-icon.png) no-repeat;
+    background: url(../img/v3/service-icon.png) no-repeat;
 }
 .fq_body_ul .material-list{
 	margin-top: 20px;

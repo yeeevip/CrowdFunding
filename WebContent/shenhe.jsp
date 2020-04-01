@@ -11,7 +11,7 @@
 <link type="text/css" rel="stylesheet" href="css/common.css">
 <link type="text/css" rel="stylesheet" href="css/shenhe.css">
 <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-<link type="text/css" rel="stylesheet" href="/CrowdFoundingMS/static/vendors/sweetalert/sweetalert.css">
+<link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath }MS/static/vendors/sweetalert/sweetalert.css">
 <script type="text/javascript" src="/CrowdFoundingMS/static/vendors/sweetalert/sweetalert.min.js"></script>
 <script type="text/javascript">
 	$(function(){

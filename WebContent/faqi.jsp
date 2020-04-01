@@ -190,7 +190,7 @@ function daoHang(obj){
 	            		<div style="left:351px;height: 60px;width: 100px;position:absolute;">
 	            			<div class="uplodify_in_repeat_0person-button">上传</div>
 	            			<input style="opacity:0;" type="file" class="uplodify_in_repeat_0person"  id="uplodify_in_repeat_0person1">
-	            			
+
 	            		</div>
 	            	</div>
 	            	<div class="material-list">
@@ -199,7 +199,7 @@ function daoHang(obj){
 	            		<div style="left:351px;height: 60px;width: 100px;position:absolute;">
 	            			<div class="uplodify_in_repeat_0person-button">上传</div>
 	            			<input style="opacity:0;" type="file" class="uplodify_in_repeat_0person" id="uplodify_in_repeat_0person2">
-	            			
+
 	            		</div>
 	            	</div>
 	            </ul>

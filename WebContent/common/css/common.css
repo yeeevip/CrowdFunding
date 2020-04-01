@@ -68,7 +68,7 @@ a {
     line-height: 35px;
     margin-right: 3px;
     padding-left: 15px;
-    background: url(../../../v3/static/images/siteHTopBg.png?v=1476329743) 0px -274px no-repeat;
+    background: url(../../img/v3/siteHTopBg.png?v=1476329743) 0px -274px no-repeat;
 }
 
 
@@ -116,7 +116,7 @@ a {
 
 
 .siteHCodeImgBox span {
-    background: url(../../../v3/static/images/siteHTopBg.png?v=1476329743) no-repeat -7px 0px;
+    background: url(../../img/v3/siteHTopBg.png?v=1476329743) no-repeat -7px 0px;
     width: 14px;
     height: 18px;
     float: left;
@@ -133,7 +133,7 @@ a {
     width: 7px;
     height: 4px;
     display: inline-block;
-    background: url(../../../v3/static/images/siteHTopBg.png?v=1476329743) no-repeat -7px 0px;
+    background: url(../../img/v3/siteHTopBg.png?v=1476329743) no-repeat -7px 0px;
     vertical-align: top;
     margin: 16px 0px 0px 3px;
     -webkit-transition: -webkit-transform 100ms;
@@ -188,7 +188,7 @@ span.wx {
     background-position: 0 -365px;
 }
 .siteHCodeImgBox span {
-    background: url(../../../v3/static/images/siteHTopBg.png?v=1476329743) no-repeat -7px 0px;
+    background: url(../../img/v3/siteHTopBg.png?v=1476329743) no-repeat -7px 0px;
     width: 14px;
     height: 18px;
     float: left;
@@ -199,7 +199,7 @@ span.wx {
     width: 7px;
     height: 4px;
     display: inline-block;
-    background: url(../../../v3/static/images/siteHTopBg.png?v=1476329743) no-repeat -7px 0px;
+    background: url(../../img/v3/siteHTopBg.png?v=1476329743) no-repeat -7px 0px;
     vertical-align: top;
     margin: 16px 0px 0px 3px;
     -webkit-transition: -webkit-transform 100ms;
@@ -331,7 +331,7 @@ fieldset, img {
 }
 
 .other-login a, .other-login a:hover {
-    background: url(../../../v3/static/images/other_login.png?v=1476329743);
+    background: url(../../img/v3/other_login.png?v=1476329743);
 }
 .other-login a {
     float: left;

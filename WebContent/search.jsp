@@ -34,13 +34,13 @@ $(document).ready(function(){
     	<div class="searchTMainBox">
         	<div class="searchB_lib">
             	<label>行业筛选：</label>
-                <a href="/CrowdFounding/search.jhtml" class="">全部</a>
-                <a href="/CrowdFounding/search.jhtml?projectType=1" class="">公益</a>
-                <a href="/CrowdFounding/search.jhtml?projectType=2" class="">农业</a>
-                <a href="/CrowdFounding/search.jhtml?projectType=3" class="">出版</a>
-                <a href="/CrowdFounding/search.jhtml?projectType=4" class="">娱乐</a>
-                <a href="/CrowdFounding/search.jhtml?projectType=5" class="">艺术</a>
-                <a href="/CrowdFounding/search.jhtml?projectType=6" class="">其他</a>
+                <a href="${pageContext.request.contextPath }/search.jhtml" class="">全部</a>
+                <a href="${pageContext.request.contextPath }/search.jhtml?projectType=1" class="">公益</a>
+                <a href="${pageContext.request.contextPath }/search.jhtml?projectType=2" class="">农业</a>
+                <a href="${pageContext.request.contextPath }/search.jhtml?projectType=3" class="">出版</a>
+                <a href="${pageContext.request.contextPath }/search.jhtml?projectType=4" class="">娱乐</a>
+                <a href="${pageContext.request.contextPath }/search.jhtml?projectType=5" class="">艺术</a>
+                <a href="${pageContext.request.contextPath }/search.jhtml?projectType=6" class="">其他</a>
             </div>
             <div class="searchB_lib">
             	<label>项目进程：</label>
@@ -124,7 +124,7 @@ $(document).ready(function(){
 					%>
     	
     	<%for(int i=0;i<pageTotal;i++){ %>
-        	<a href="/CrowdFounding/search.jhtml?projectType=${projectType}&&page=<%=i+1 %>" class="normalPage cu"><%=i+1 %></a>
+        	<a href="${pageContext.request.contextPath }/search.jhtml?projectType=${projectType}&&page=<%=i+1 %>" class="normalPage cu"><%=i+1 %></a>
       <%} %>
             <!-- <span class="dianhaoSpan">...</span> -->
             <a href="javascript:;" class="nextPage"></a>

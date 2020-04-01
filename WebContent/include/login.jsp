@@ -47,7 +47,7 @@
 </div>
 <i class="login_b">${both_error }${user_error }${code_error }</i>
 
-<form action="/CrowdFounding/login.jhtml" id="login_pt" method="post">
+<form action="${pageContext.request.contextPath }/login.jhtml" id="login_pt" method="post">
 <input type="hidden" name="re" value="${param.re }">
 
 <ul class="tab_login_box" style="display:">
@@ -67,8 +67,8 @@
 <input type="text" class="txt" id="ImgCode" name="code" placeholder="请输入验证码">
 
 <img class="getCodeBtn" style="cursor: pointer; background:#fff; vertical-align:middle"
- src="/CrowdFounding/code.jhtml" id="VerifyImage2" title="看不清？点击换一个" 
- onclick="javascript:this.src='/CrowdFounding/code.jhtml;'+new Date().getMilliseconds()">
+ src="${pageContext.request.contextPath }/code.jhtml" id="VerifyImage2" title="看不清？点击换一个"
+ onclick="javascript:this.src='${pageContext.request.contextPath }/code.jhtml;'+new Date().getMilliseconds()">
 </li>
 
 <li class="remP">

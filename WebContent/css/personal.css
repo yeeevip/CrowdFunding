@@ -429,7 +429,7 @@ div{
     .grzx_ddList table tbody .ftTr td  a.ftTr_delA {
     	width: 18px;
     height: 18px;
-    background: url(/CrowdFounding/img/v3/grzxBg.png) no-repeat 0px -72px;
+    background: url(../img/v3/grzxBg.png) no-repeat 0px -72px;
     margin: 0px auto;
         text-decoration: none;
    display:block;
