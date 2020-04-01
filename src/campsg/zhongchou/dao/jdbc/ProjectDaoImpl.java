@@ -164,29 +164,29 @@ public class ProjectDaoImpl extends JDBCBase implements ProjectDao{
 
 	@Override
 	public List<Project> getProjectByCondition(Project project, Integer page,Integer showCount) throws SQLException {
-		String sql = "SELECT * FROM Project WHERE 1=1  ";
+		StringBuffer sql = new StringBuffer("SELECT * FROM Project WHERE 1=1  ");
 		// TODO Auto-generated method stub
 		if(project.getTitle() !=null && !project.getTitle().equals("")){
-			sql += "and  title LIKE '%" + project.getTitle() +"%'";
+			sql.append(" and  title LIKE '%" + project.getTitle() +"%'");
 		}
 		if(project.getCategory_id() !=0 ){
 			if(project.getCategory_id()!=-1){
-				sql += " and category_id ="+project.getCategory_id();
+				sql.append(" and category_id ="+project.getCategory_id());
 			}
 			if(project.getCategory_id()==-1){
-				sql+= "and category_id not in (1)";
+				sql.append(" and category_id not in (1)");
 			}
 		}
 		
 		if(project.getUser_id()!=0){
-			sql+= "and user_id="+project.getUser_id();
+			sql.append(" and user_id="+project.getUser_id());
 		}
 
 		if(project.getIs_audits()!=null&&project.getIs_audits()==2){
-			sql+= " and is_audits!=0 ";
+			sql.append(" and is_audits!=0 ");
 		}
 		
-		sql+= "  order by launch_date_raising desc";
+		sql.append("  order by launch_date_raising desc");
 		
 		//int max = 20; //单页最大显示数
 		int start = (page - 1) * showCount;
@@ -199,7 +199,7 @@ public class ProjectDaoImpl extends JDBCBase implements ProjectDao{
 		Project p = null;
 		
 		try{
-			ps = con.prepareStatement(sql, ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
+			ps = con.prepareStatement(sql.toString(), ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
 			ps.setMaxRows(start+showCount);
 			rs = ps.executeQuery();
 			rs.first();

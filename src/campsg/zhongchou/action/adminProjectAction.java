@@ -35,15 +35,13 @@ public class adminProjectAction extends HttpServlet {
 		}catch(NumberFormatException e){
 			adminPage = 1;
 		}
-		
 		List<Project> projects = null;
-	/*	try {
-			//projects = projectDaoImpl.getProjectByCondition("","", adminPage);
+		try {
+			projects = projectDaoImpl.getProjectByCondition(new Project(),adminPage,1000);
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}*/
-//		req.setAttribute("projects", projects);
+		}
+		req.setAttribute("projects", projects);
 		
 		
 		/**
