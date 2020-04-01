@@ -190,7 +190,7 @@ var userSession = ${sessionScope.user == null};
                             </div>
                         </div>
                         <!--输入框begin-->
-                        <form action="/CrowdFounding/newComment.jhtml" method="post">
+                        <form action="/newComment.jhtml" method="post">
                         <div class="pl_inputBox">
                         	<div class="pl_tx">
                             	<a href="javascript:;"><img src="" /></a>

@@ -14,7 +14,7 @@
 		$.ajax({
 			   type:"post",//请求方式
 			   cache: false,
-			   url:"/CrowdFounding/login.jhtml",//发送请求地址
+			   url:"/CrowdFunding/login.jhtml",//发送请求地址
 			   data:{//发送给数据库的数据
 			   Account:$("#Account").val(),
 			   Password:$("#Password").val()

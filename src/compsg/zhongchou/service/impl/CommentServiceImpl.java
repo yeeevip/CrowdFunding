@@ -1,6 +1,7 @@
 package compsg.zhongchou.service.impl;
 
 import java.sql.SQLException;
+import java.util.Date;
 
 import com.zhongchou.service.CommentService;
 
@@ -20,6 +21,7 @@ public class CommentServiceImpl implements CommentService {
 		comment.setUser_id(user);
 		comment.setProject(project);
 		comment.setContent(content);
+		comment.setTime(new Date());
 		commentDaoImpl.save(comment);
 	}
 

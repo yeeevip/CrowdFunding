@@ -11,7 +11,7 @@ import java.util.List;
  *
  * @param <T>
  */
-public interface IDaoCrowdFounding<T> {
+public interface IDaoCrowdFunding<T> {
 	int addItem(T t) throws SQLException;//添加数据
 	int updateItem(T t) throws SQLException;//更新数据
 	int deleteItem(Object id) throws SQLException;//删除数据

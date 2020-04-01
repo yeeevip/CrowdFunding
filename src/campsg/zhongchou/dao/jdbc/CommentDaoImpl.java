@@ -56,7 +56,8 @@ public class CommentDaoImpl extends JDBCBase implements CommentDao {
 	public List<Comment> getCommentByProject(int project, Integer page) throws SQLException {
 		// TODO Auto-generated method stub
 		
-		String sql = "SELECT * FROM Comment WHERE project = " + project;
+		StringBuffer sql = new StringBuffer("SELECT * FROM Comment WHERE project = " + project);
+		sql.append(" order by time desc");
 		int max = 5; //单页最大显示数
 		int start = (page - 1)*max;
 		Connection con = JDBCUtils.getConnection();
@@ -66,7 +67,7 @@ public class CommentDaoImpl extends JDBCBase implements CommentDao {
 		List<Comment> comments = new ArrayList<>();
 		Comment comment =null;
 		try{
-			ps = con.prepareStatement(sql);
+			ps = con.prepareStatement(sql.toString());
 			ps.setMaxRows(start + max);
 			rs = ps.executeQuery();
 			rs.first();
@@ -104,8 +105,8 @@ public class CommentDaoImpl extends JDBCBase implements CommentDao {
 	public void save(Comment comment) throws SQLException {
 		// TODO Auto-generated method stub
 		
-		String sql = "INSERT INTO Comment (user_id,project,content) VALUES(?,?,?)";
-		Object[] param = {comment.getUser_id(),comment.getProject(),comment.getContent()};
+		String sql = "INSERT INTO Comment (user_id,project,content,time) VALUES(?,?,?,?)";
+		Object[] param = {comment.getUser_id(),comment.getProject(),comment.getContent(),comment.getTime()};
 		saveOrUpdateOrDelete(sql, param);
 		
 	}

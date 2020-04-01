@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>    
  <c3p0-config>
 	<default-config>
-		<property name="jdbcUrl">jdbc:mysql://localhost:3306/crowdfounding</property>
+		<property name="jdbcUrl">jdbc:mysql://localhost:3306/crowdfunding</property>
 		<property name="driverClass">com.mysql.jdbc.Driver</property>
 		<property name="user">root</property>
-		<property name="password">123456789qq</property>
+		<property name="password">root</property>
 
 		<property name="checkoutTimeout">30000</property>
 		<property name="idleConnectionTestPeriod">30</property>

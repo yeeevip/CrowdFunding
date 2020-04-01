@@ -8,7 +8,7 @@ import java.sql.Statement;
 
 public class JDBCManager {
 	
-    private static String url = "jdbc:mysql://localhost:3306/crowdfounding" ;    
+    private static String url = "jdbc:mysql://localhost:3306/crowdfunding" ;
     private static String username = "root" ;   
     private static String password = "123456789qq" ;   
 	
