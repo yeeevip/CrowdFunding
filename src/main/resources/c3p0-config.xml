@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>    
  <c3p0-config>
 	<default-config>
-		<property name="jdbcUrl">jdbc:mysql://localhost:3306/crowdfunding?useSSL=false&amp;serverTimezone=UTC</property>
-		<property name="driverClass">com.mysql.cj.jdbc.Driver</property>
+
+		<!--<property name="jdbcUrl">jdbc:mysql://localhost:3306/crowdfunding?useSSL=false&amp;serverTimezone=UTC</property>-->
+		<!--<property name="driverClass">com.mysql.cj.jdbc.Driver</property>-->
+
+		<!--使用了log4jdbc，可以打印sql语句，利于排查问题，不想使用可以换成上面的-->
+		<property name="jdbcUrl">jdbc:log4jdbc:mysql://localhost:3306/crowdfunding?useSSL=false&amp;serverTimezone=UTC</property>
+		<property name="driverClass">net.sf.log4jdbc.DriverSpy</property>
+
+
 		<property name="user">root</property>
 		<property name="password">root</property>
 
