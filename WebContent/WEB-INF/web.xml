@@ -16,7 +16,7 @@
 <!-- 登陆 -->
   <servlet>
     <servlet-name>loginAction</servlet-name>
-    <servlet-class>campsg.zhongchou.action.LoginAction</servlet-class>
+    <servlet-class>com.yeah.zhongchou.controller.LoginAction</servlet-class>
    
     <init-param>
       <param-name>error_url</param-name>
@@ -35,7 +35,7 @@
     <!-- 注销 -->
     <servlet>
     	<servlet-name>logoutAction</servlet-name>
-    	<servlet-class>campsg.zhongchou.action.LogoutAction</servlet-class>
+    	<servlet-class>com.yeah.zhongchou.controller.LogoutAction</servlet-class>
     </servlet>
     <servlet-mapping>
     	<servlet-name>logoutAction</servlet-name>
@@ -45,7 +45,7 @@
   <!-- 注册 -->
   <servlet>
   	<servlet-name>registerAction</servlet-name>
-  	<servlet-class>campsg.zhongchou.action.RegisterAction</servlet-class>
+  	<servlet-class>com.yeah.zhongchou.controller.RegisterAction</servlet-class>
   </servlet>
   <servlet-mapping>
   	<servlet-name>registerAction</servlet-name>
@@ -55,7 +55,7 @@
   <!-- 首页 -->
   <servlet>
   	<servlet-name>indexAction</servlet-name>
-  	<servlet-class>campsg.zhongchou.action.IndexAction</servlet-class>
+  	<servlet-class>com.yeah.zhongchou.controller.IndexAction</servlet-class>
   </servlet>
   <servlet-mapping>
   	<servlet-name>indexAction</servlet-name>
@@ -66,7 +66,7 @@
   <!-- 项目详情页 -->
   <servlet>
   	<servlet-name>projectAction</servlet-name>
-  	<servlet-class>campsg.zhongchou.action.ProjectAction</servlet-class>
+  	<servlet-class>com.yeah.zhongchou.controller.ProjectAction</servlet-class>
   </servlet>
   <servlet-mapping>
   	<servlet-name>projectAction</servlet-name>
@@ -76,7 +76,7 @@
 <!-- 验证码 -->
   <servlet>
     <servlet-name>code</servlet-name>
-    <servlet-class>campsg.zhongchou.action.CodeAction</servlet-class>
+    <servlet-class>com.yeah.zhongchou.controller.CodeAction</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>code</servlet-name>
@@ -87,7 +87,7 @@
   <!-- 搜索页面 -->
   <servlet>
   	<servlet-name>searchAction</servlet-name>
-  	<servlet-class>campsg.zhongchou.action.SearchAction</servlet-class>
+  	<servlet-class>com.yeah.zhongchou.controller.SearchAction</servlet-class>
   </servlet>
   <servlet-mapping>
   	<servlet-name>searchAction</servlet-name>
@@ -97,7 +97,7 @@
   <!-- 发起项目 -->
   <servlet>
   	<servlet-name>issueProjectAction</servlet-name>
-  	<servlet-class>campsg.zhongchou.action.IssueProjectAction</servlet-class>
+  	<servlet-class>com.yeah.zhongchou.controller.IssueProjectAction</servlet-class>
   </servlet>
   <servlet-mapping>
   	<servlet-name>issueProjectAction</servlet-name>
@@ -110,7 +110,7 @@
   <!-- 管理员页面begin -->
   <servlet>
   	<servlet-name>adminLoginAction</servlet-name>
-  	<servlet-class>campsg.zhongchou.action.AdminLoginAction</servlet-class>
+  	<servlet-class>com.yeah.zhongchou.controller.AdminLoginAction</servlet-class>
   </servlet>
   <servlet-mapping>
   	<servlet-name>adminLoginAction</servlet-name>
@@ -121,7 +121,7 @@
    <!-- 项目管理begin -->
    <servlet>
    	<servlet-name>adminProjectAction</servlet-name>
-   	<servlet-class>campsg.zhongchou.action.adminProjectAction</servlet-class>
+   	<servlet-class>com.yeah.zhongchou.controller.adminProjectAction</servlet-class>
    </servlet>
    <servlet-mapping>
    	<servlet-name>adminProjectAction</servlet-name>
@@ -135,7 +135,7 @@
    <!-- 用户管理begin -->
    <servlet>
    	<servlet-name>adminUserAction</servlet-name>
-   	<servlet-class>campsg.zhongchou.action.adminUserAction</servlet-class>
+   	<servlet-class>com.yeah.zhongchou.controller.adminUserAction</servlet-class>
    </servlet>
    <servlet-mapping>
    	<servlet-name>adminUserAction</servlet-name>
@@ -147,7 +147,7 @@
     <!-- 新评论 -->
     <servlet>
     	<servlet-name>newCommentAction</servlet-name>
-    	<servlet-class>campsg.zhongchou.action.NewCommentAction</servlet-class>
+    	<servlet-class>com.yeah.zhongchou.controller.NewCommentAction</servlet-class>
     </servlet>
     <servlet-mapping>
     	<servlet-name>newCommentAction</servlet-name>
@@ -157,7 +157,7 @@
     <!-- 过滤器 编码 -->
     	<filter>
 		<filter-name>encodingFilter</filter-name>
-		<filter-class>campsg.zhongchou.filter.EncodingFilter</filter-class>
+		<filter-class>com.yeah.zhongchou.filter.EncodingFilter</filter-class>
 		
 		<init-param>
 			<param-name>encoding</param-name>
@@ -172,7 +172,7 @@
 	  <!-- 过滤器 编码 -->
 	     	<filter>
 		<filter-name>userFilter</filter-name>
-		<filter-class>campsg.zhongchou.filter.UserFilter</filter-class>
+		<filter-class>com.yeah.zhongchou.filter.UserFilter</filter-class>
 		<init-param>
 			<param-name>checked</param-name>
 			<param-value>/faqi.jsp;personal_information.jsp;showPerson.jhtml;</param-value>
@@ -190,7 +190,7 @@
 		  <!-- 用户资料修改-->
  <servlet>
 	<servlet-name>reviseUserAction</servlet-name>
-	<servlet-class>campsg.zhongchou.action.ReviseUserAction</servlet-class>
+	<servlet-class>com.yeah.zhongchou.controller.ReviseUserAction</servlet-class>
  </servlet>
  <servlet-mapping>
  	<servlet-name>reviseUserAction</servlet-name>
@@ -199,7 +199,7 @@
 	 <!-- 用户资料修改-->
 	 <servlet>
 	 	<servlet-name>showPersonAction</servlet-name>
-	 	<servlet-class>campsg.zhongchou.action.ShowPersonAction</servlet-class>
+	 	<servlet-class>com.yeah.zhongchou.controller.ShowPersonAction</servlet-class>
 	 </servlet>
 	 <servlet-mapping>
 	 	<servlet-name>showPersonAction</servlet-name>
@@ -210,7 +210,7 @@
 	 <!-- 文件上传 -->
  <servlet>
  	<servlet-name>uploadServletAction</servlet-name>
- 	<servlet-class>campsg.zhongchou.action.UploadServletAction</servlet-class>
+ 	<servlet-class>com.yeah.zhongchou.controller.UploadServletAction</servlet-class>
  </servlet>
  <servlet-mapping>
  	<servlet-name>uploadServletAction</servlet-name>
@@ -223,7 +223,7 @@
 	<!-- 订单 -->
 	<servlet>
 		<servlet-name>orderAction</servlet-name>
-		<servlet-class>campsg.zhongchou.action.OrderAction</servlet-class>
+		<servlet-class>com.yeah.zhongchou.controller.OrderAction</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>orderAction</servlet-name>
@@ -235,7 +235,7 @@
 	
 		<servlet>
 		<servlet-name>orderPageAction</servlet-name>
-		<servlet-class>campsg.zhongchou.action.OrderPageAction</servlet-class>
+		<servlet-class>com.yeah.zhongchou.controller.OrderPageAction</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>orderPageAction</servlet-name>
@@ -244,7 +244,7 @@
 	
 	<servlet>
 		<servlet-name>provinceAction</servlet-name>
-		<servlet-class>campsg.zhongchou.action.ProvinceAction</servlet-class>
+		<servlet-class>com.yeah.zhongchou.controller.ProvinceAction</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>provinceAction</servlet-name>
@@ -253,7 +253,7 @@
 	
 	<servlet>
 		<servlet-name>projectProcessPageAction</servlet-name>
-		<servlet-class>campsg.zhongchou.action.ProjectProcessPageAction</servlet-class>
+		<servlet-class>com.yeah.zhongchou.controller.ProjectProcessPageAction</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>projectProcessPageAction</servlet-name>
@@ -261,7 +261,7 @@
 	</servlet-mapping>
 	<servlet>
 		<servlet-name>updateProjectProgressAction</servlet-name>
-		<servlet-class>campsg.zhongchou.action.UpdateProjectProgressAction</servlet-class>
+		<servlet-class>com.yeah.zhongchou.controller.UpdateProjectProgressAction</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>updateProjectProgressAction</servlet-name>
@@ -271,7 +271,7 @@
 	
 	<servlet>
 		<servlet-name>receiveInfoAction</servlet-name>
-		<servlet-class>campsg.zhongchou.action.ReceiveInfoAction</servlet-class>
+		<servlet-class>com.yeah.zhongchou.controller.ReceiveInfoAction</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>receiveInfoAction</servlet-name>
