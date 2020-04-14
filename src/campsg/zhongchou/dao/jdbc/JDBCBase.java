@@ -1,13 +1,9 @@
 package campsg.zhongchou.dao.jdbc;/** * @author  作者 E-mail: * @date 创建时间：2016年12月12日 下午3:04:30 * @version 1.0 * @parameter  * @since  * @return  */
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 
 import campsg.zhongchou.utils.JDBCUtils;
 
-import com.mysql.jdbc.Statement;
 
 public class JDBCBase {
 /**
