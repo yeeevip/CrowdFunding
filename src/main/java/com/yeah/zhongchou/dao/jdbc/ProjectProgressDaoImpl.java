@@ -18,7 +18,7 @@ public class ProjectProgressDaoImpl extends JDBCBase implements ProjectProgressD
 	public void insertProjectProgress(ProjectProgress projectProgress) throws SQLException {
 		// TODO Auto-generated method stub
 		Connection con = JDBCUtils.getConnection();
-		String sql = "INSERT INTO Project_progress "
+		String sql = "INSERT INTO project_progress "
 				+ "(project_id,content,publish_date,pubUser)"
 				+ " VALUES(?,?,?,?)";
 		Object[] param = {projectProgress.getProjectId(),projectProgress.getContent(),new Date(),projectProgress.getPubUser()};

@@ -38,7 +38,7 @@ public class ProjectDaoImpl extends JDBCBase implements ProjectDao {
 		
 		List<Project> p= new ArrayList<>();
 		try {
-			String sql = "SELECT * FROM Project p WHERE p.is_index = "+is+ " AND p.category_id = "+type;
+			String sql = "SELECT * FROM project p WHERE p.is_index = "+is+ " AND p.category_id = "+type;
 			ps = con.prepareStatement(sql, ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);	
 			rs = ps.executeQuery();
 			while(rs.next()){
@@ -57,7 +57,7 @@ public class ProjectDaoImpl extends JDBCBase implements ProjectDao {
 	//通过project获取详情页面信息
 
 	public Project getProjectById(int id) throws SQLException{
-		String sql = "SELECT * FROM Project WHERE project_id = " + id;
+		String sql = "SELECT * FROM project WHERE project_id = " + id;
 		Connection con = JDBCUtils.getConnection();
 		PreparedStatement ps = null;
 		ResultSet rs = null;
@@ -87,7 +87,7 @@ public class ProjectDaoImpl extends JDBCBase implements ProjectDao {
 				
 				
 				//封装保存projectdetail对象
-				String pd_sql = "SELECT * FROM Project_detail WHERE project_id = " + project.getProject_id();
+				String pd_sql = "SELECT * FROM project_detail WHERE project_id = " + project.getProject_id();
 				ps = con.prepareStatement(pd_sql, ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
 				pd_rs = ps.executeQuery();
 				List<Projectdetail> pdlist = new ArrayList<>();
@@ -98,7 +98,7 @@ public class ProjectDaoImpl extends JDBCBase implements ProjectDao {
 				project.setProjectdetail(pdlist);
 				
 				//封装保存projectrepay对象
-				String pr_sql = "SELECT * FROM Projectrepay WHERE project_id = " + project.getProject_id();
+				String pr_sql = "SELECT * FROM projectrepay WHERE project_id = " + project.getProject_id();
 				ps = con.prepareStatement(pr_sql);
 				pr_rs = ps.executeQuery();
 				List<ProjectRepay> prlist = new ArrayList<>();
@@ -124,7 +124,7 @@ public class ProjectDaoImpl extends JDBCBase implements ProjectDao {
 	@Override
 	public Integer getProjectNum(String projectType , String key) throws SQLException {
 		// TODO Auto-generated method stub
-		String sql = "SELECT count(*) FROM Project WHERE 1=1  and is_audits=1 ";
+		String sql = "SELECT count(*) FROM project WHERE 1=1  and is_audits=1 ";
 		// TODO Auto-generated method stub
 		if(key !=null && !key.equals("")){
 			sql += "and  title LIKE '%" + key +"%'";
@@ -164,7 +164,7 @@ public class ProjectDaoImpl extends JDBCBase implements ProjectDao {
 
 	@Override
 	public List<Project> getProjectByCondition(Project project, Integer page,Integer showCount) throws SQLException {
-		StringBuffer sql = new StringBuffer("SELECT * FROM Project WHERE 1=1  ");
+		StringBuffer sql = new StringBuffer("SELECT * FROM project WHERE 1=1  ");
 		// TODO Auto-generated method stub
 		if(project.getTitle() !=null && !project.getTitle().equals("")){
 			sql.append(" and  title LIKE '%" + project.getTitle() +"%'");
@@ -243,11 +243,11 @@ public class ProjectDaoImpl extends JDBCBase implements ProjectDao {
 	
 		Connection conn = JDBCUtils.getConnection();
 
-		String sql = "INSERT INTO Project "
+		String sql = "INSERT INTO project "
 				+ "(title,blurb,img_name,total_fund_raising,user_id,category_id,days_raising,is_audits,shenfen,launch_date_raising)"
 				+ " VALUES(?,?,?,?,?,?,?,?,?,?)";
-		String detail_sql = "INSERT INTO Project_detail (project_id,dtitle,dcontent) VALUES(?,?,?)";
-		String repay_sql = "INSERT INTO ProjectRepay (project_id,paytitle,paycontent,type,time,money) VALUES(?,?,?,?,?,?) ";
+		String detail_sql = "INSERT INTO project_detail (project_id,dtitle,dcontent) VALUES(?,?,?)";
+		String repay_sql = "INSERT INTO projectRepay (project_id,paytitle,paycontent,type,time,money) VALUES(?,?,?,?,?,?) ";
 
 		Object[] param = {project.getTitle(),
 				project.getBlurb(),
@@ -381,7 +381,7 @@ public class ProjectDaoImpl extends JDBCBase implements ProjectDao {
 	@Override
 	public List<Project> getProjectByIs_audits(int is_audits) throws SQLException {
 		// TODO Auto-generated method stub
-		String sql = "SELECT * FROM Project WHERE is_audits="+is_audits;
+		String sql = "SELECT * FROM project WHERE is_audits="+is_audits;
 		Connection con = JDBCUtils.getConnection();
 		PreparedStatement ps = null;
 		ResultSet rs = null;

@@ -17,7 +17,7 @@ public class InitiatorInfoDaoImpl extends JDBCBase implements InitiatorInfoDao {
 	@Override
 	public void saveInitiatorPersonInfo(InitiatorPersonInfo initiatorPersonInfo) throws SQLException {
 		// TODO Auto-generated method stub
-		String sql = "INSERT INTO Initiator_personInfo (project,name,IDnumber,phone) VALUES(?,?,?,?)";
+		String sql = "INSERT INTO initiator_personInfo (project,name,IDnumber,phone) VALUES(?,?,?,?)";
 		Object[] param = {initiatorPersonInfo.getProject_id(),initiatorPersonInfo.getName(),initiatorPersonInfo.getIDnumber(),initiatorPersonInfo.getPhone()};
 		saveOrUpdateOrDelete(sql, param);
 		
@@ -26,7 +26,7 @@ public class InitiatorInfoDaoImpl extends JDBCBase implements InitiatorInfoDao {
 	@Override
 	public void saveInitiatorCompanyInfo(InitiatorCompanyInfo initiatorCompanyInfo) throws SQLException {
 		// TODO Auto-generated method stub
-		String sql = "INSERT INTO Initiator_companyInfo (project,firmName,businessNumber,slanderName,address,contactName,contactPhone) VALUES(?,?,?,?,?,?,?)";
+		String sql = "INSERT INTO initiator_companyInfo (project,firmName,businessNumber,slanderName,address,contactName,contactPhone) VALUES(?,?,?,?,?,?,?)";
 		Object[] param = {initiatorCompanyInfo.getProject_id(),
 							initiatorCompanyInfo.getFirmName(),
 							initiatorCompanyInfo.getBusinessNumber(),

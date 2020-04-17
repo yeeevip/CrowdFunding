@@ -29,7 +29,7 @@ public class UserDaoImpl extends JDBCBase implements UserDao {
 		
 		
 		
-		String sql = "SELECT * FROM User u WHERE u.phone = ? or u.email = ?";
+		String sql = "SELECT * FROM user u WHERE u.phone = ? or u.email = ?";
 		try{
 			ps = con.prepareStatement(sql);
 			Object[] parm = {condition, condition};
@@ -56,7 +56,7 @@ public class UserDaoImpl extends JDBCBase implements UserDao {
 	@Override
 	public List<User> getUsersByCondition(String condition, Integer page) throws SQLException {
 		// TODO Auto-generated method stub
-		String sql = "SELECT * FROM User";
+		String sql = "SELECT * FROM user";
 		// TODO Auto-generated method stub
 		if(condition !=null && !condition.equals(""))
 			sql += " WHERE user_name LIKE '%" + condition +"%'";
@@ -98,7 +98,7 @@ public class UserDaoImpl extends JDBCBase implements UserDao {
 	@Override
 	public void save(User user) throws SQLException {
 		// TODO Auto-generated method stub
-		String sql = "INSERT INTO User (phone,email,password,date_of_registration,user_name) VALUES(?,?,?,?,?)";
+		String sql = "INSERT INTO user (phone,email,password,date_of_registration,user_name) VALUES(?,?,?,?,?)";
 		String user_name = null;
 		if(user.getPhone()!=null){
 			user_name = user.getPhone();

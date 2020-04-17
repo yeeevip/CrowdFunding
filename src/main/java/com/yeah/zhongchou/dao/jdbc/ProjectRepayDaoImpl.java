@@ -19,7 +19,7 @@ public class ProjectRepayDaoImpl extends JDBCBase implements ProjectRepayDao {
 	public void saveProjectRepay(List<ProjectRepay> projectRepays) throws SQLException {
 		// TODO Auto-generated method stub
 		for(int i=0;i<projectRepays.size();i++){
-			String sql = "INSERT INTO ProjectRepay (project_id,paytitle,paycontent,type,time,money) VALUES(?,?,?,?,?,?) ";
+			String sql = "INSERT INTO projectRepay (project_id,paytitle,paycontent,type,time,money) VALUES(?,?,?,?,?,?) ";
 			Object[] param = {projectRepays.get(i).getProject(),
 					projectRepays.get(i).getTitle(),
 					projectRepays.get(i).getContent(),
@@ -38,7 +38,7 @@ public class ProjectRepayDaoImpl extends JDBCBase implements ProjectRepayDao {
 	public ProjectRepay getProjectRepayById(int id) throws SQLException {
 		// TODO Auto-generated method stub
 		Connection con = JDBCUtils.getConnection();
-		String sql = "SELECT * FROM Projectrepay WHERE id="+id;
+		String sql = "SELECT * FROM projectrepay WHERE id="+id;
 		PreparedStatement ps = null;
 		ResultSet rs = null;
 		ProjectRepay projectRepay = null;
@@ -68,7 +68,7 @@ public class ProjectRepayDaoImpl extends JDBCBase implements ProjectRepayDao {
 		ResultSet rs = null;
 		List<ProjectRepay> projectRepayList = new ArrayList<>();
 		try{
-			sql = "SELECT * FROM Projectrepay WHERE project_id="+project_id;
+			sql = "SELECT * FROM projectrepay WHERE project_id="+project_id;
 			ps = con.prepareStatement(sql);
 			rs = ps.executeQuery();
 			

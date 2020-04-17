@@ -16,7 +16,7 @@ public class ProjectcategoryDaoImpl implements ProjectcategoryDao {
 	public Projectcategory getcategoryById(int id) throws SQLException {
 		// TODO Auto-generated method stub
 		Connection con = JDBCUtils.getConnection();
-		String sql = "SELECT * FROM Projectcategory WHERE id =" + id ;
+		String sql = "SELECT * FROM projectcategory WHERE id =" + id ;
 		PreparedStatement ps = null;
 		ResultSet rs = null;
 		Projectcategory projectcategory = null;

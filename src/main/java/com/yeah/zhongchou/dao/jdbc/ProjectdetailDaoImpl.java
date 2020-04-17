@@ -14,7 +14,7 @@ public class ProjectdetailDaoImpl extends JDBCBase implements ProjectdetailDao {
 		// TODO Auto-generated method stub
 		for(int i=0;i<projectdetails.size();i++){
 			
-			String sql = "INSERT INTO Project_detail (project_id,dtitle,dcontent) VALUES(?,?,?)";
+			String sql = "INSERT INTO project_detail (project_id,dtitle,dcontent) VALUES(?,?,?)";
 			Object[] param = {projectdetails.get(i).getProject_id(),projectdetails.get(i).getTitle(),projectdetails.get(i).getContent()};
 			
 			saveOrUpdateOrDelete(sql, param);

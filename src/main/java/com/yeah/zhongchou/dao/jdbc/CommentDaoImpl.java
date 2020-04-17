@@ -32,7 +32,7 @@ public class CommentDaoImpl extends JDBCBase implements CommentDao {
 	public Integer getProjectNum(int project) throws SQLException {
 		// TODO Auto-generated method stub
 		
-		String sql = "SELECT count(*) FROM Comment WHERE project=" + project;
+		String sql = "SELECT count(*) FROM comment WHERE project=" + project;
 		Connection con = JDBCUtils.getConnection();
 		PreparedStatement ps = null;
 		ResultSet rs = null;
@@ -56,7 +56,7 @@ public class CommentDaoImpl extends JDBCBase implements CommentDao {
 	public List<Comment> getCommentByProject(int project, Integer page) throws SQLException {
 		// TODO Auto-generated method stub
 		
-		StringBuffer sql = new StringBuffer("SELECT * FROM Comment WHERE project = " + project);
+		StringBuffer sql = new StringBuffer("SELECT * FROM comment WHERE project = " + project);
 		sql.append(" order by time desc");
 		int max = 5; //单页最大显示数
 		int start = (page - 1)*max;
@@ -77,7 +77,7 @@ public class CommentDaoImpl extends JDBCBase implements CommentDao {
 				//封装保存Comment对象
 				comment = Packager.packComment(rs);
 				//封装保存用户对象
-				String user_sql = "SELECT * FROM User WHERE id = " + comment.getUser_id();
+				String user_sql = "SELECT * FROM user WHERE id = " + comment.getUser_id();
 				ps = con.prepareStatement(user_sql);
 				user_rs = ps.executeQuery();
 				User user = null;
@@ -105,7 +105,7 @@ public class CommentDaoImpl extends JDBCBase implements CommentDao {
 	public void save(Comment comment) throws SQLException {
 		// TODO Auto-generated method stub
 		
-		String sql = "INSERT INTO Comment (user_id,project,content,time) VALUES(?,?,?,?)";
+		String sql = "INSERT INTO comment (user_id,project,content,time) VALUES(?,?,?,?)";
 		Object[] param = {comment.getUser_id(),comment.getProject(),comment.getContent(),comment.getTime()};
 		saveOrUpdateOrDelete(sql, param);
 		
