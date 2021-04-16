@@ -36,7 +36,7 @@
 
 ### 二、前台页面
 #### 1.项目详情
-   ![image](http://oos.yeee.vip/3.%E5%8F%91%E8%B5%B7%E9%A1%B9%E7%9B%AE-%E9%A1%B9%E7%9B%AE%E8%AF%A6%E6%83%85.png)
+   ![image](http://oos.yeee.vip/13.%E6%B5%8B%E8%AF%95%E9%A1%B9%E7%9B%AE%20-%E8%AF%A6%E6%83%85%E9%A1%B5.png)
 ### 三、个人中心
 #### 1.我的发起
    ![image](http://oos.yeee.vip/6.%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF-%E6%88%91%E7%9A%84%E5%8F%91%E8%B5%B7.png)
