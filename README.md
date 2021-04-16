@@ -26,8 +26,7 @@
 
 #### 1.编写项目基础信息
 
-   1.发起项目-基础信息.png
-   http://oos.yeee.vip/1.%E5%8F%91%E8%B5%B7%E9%A1%B9%E7%9B%AE-%E5%9F%BA%E7%A1%80%E4%BF%A1%E6%81%AF.png
+   ![image](http://oos.yeee.vip/1.%E5%8F%91%E8%B5%B7%E9%A1%B9%E7%9B%AE-%E5%9F%BA%E7%A1%80%E4%BF%A1%E6%81%AF.png)
    
 #### 其他步骤可以查看 doc文件夹，按照数字序号查看图片
 
