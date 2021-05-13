@@ -3969,6 +3969,7 @@ CREATE TABLE `user` (
 INSERT INTO `user` VALUES ('30', '17855830787', 'e10adc3949ba59abbe56e057f20f883e', '', '1', '', '2017-10-22', '2017-09-22 09:22:40', '17855830787', '', '', '');
 INSERT INTO `user` VALUES ('34', '13754113543', 'e10adc3949ba59abbe56e057f20f883e', null, null, null, null, '2017-12-29 04:48:33', '13754113543', null, null, null);
 INSERT INTO `user` VALUES ('35', '1324459373', 'e10adc3949ba59abbe56e057f20f883e', null, null, null, null, '2017-12-29 07:17:59', '1324459373', null, null, null);
+INSERT INTO `user` VALUES ('36', 'admin', 'e10adc3949ba59abbe56e057f20f883e', null, null, null, null, '2017-12-29 07:17:59', 'admin', null, null, null);
 
 -- ----------------------------
 -- Table structure for user_account
