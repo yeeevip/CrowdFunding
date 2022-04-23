@@ -7,7 +7,6 @@
 <link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath }/css/faqi.css">
 <link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath }/css/common.css">
 <script type="text/javascript" src="${pageContext.request.contextPath }/js/jquery-3.1.1.min.js"></script>
-<script type="text/javascript" src="${pageContext.request.contextPath }/js/jquery.uploadify.min.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath }/js/layer/layer.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath }/js/faqi.js"></script>
 

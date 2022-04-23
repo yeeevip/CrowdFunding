@@ -323,7 +323,7 @@
 			<div class="c_display" style="display:none" id="a_project">
 				<ul  class="right_box1_ul">
 			    	<li><a href="javascript:projectAll()">全部项目</a></li>
-			        <li><a href="javascript:projectNo();">待审核项目</a></li>
+			        <li><a href="javascript:projectNo();" style="color: red">待审核项目</a></li>
 			        <li>已成功项目</li>
 			    </ul>
 			    
