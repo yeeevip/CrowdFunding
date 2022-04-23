@@ -34,11 +34,11 @@
 <div class="siteMTopBox">
 	<div class="mainInnerBox clearfix relative">
     	<a href="javascript:;" class="siteMIndexA">
-        	<img src />
+        	<img src = "${pageContext.request.contextPath }/img/logo/logo.png" />
         </a>
         <div class="siteHNavBox clearfix">
         	<div class="siteHNavItem">
-            	<a href="${pageContext.request.contextPath }" class="siteHNavItemA">首&nbsp;&nbsp;页</a>
+            	<a href="${pageContext.request.contextPath }/" class="siteHNavItemA">首&nbsp;&nbsp;页</a>
             </div>
             <div class="siteHNavItem">
             	<a href="${pageContext.request.contextPath }/search.jhtml?projectType=-1" class="siteHNavItemA">奖励众筹</a>
