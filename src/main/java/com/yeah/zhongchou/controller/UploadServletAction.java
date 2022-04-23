@@ -32,7 +32,7 @@ public class UploadServletAction extends HttpServlet {
 		String path = req.getRequestURI();
 		String action = path.substring(path.lastIndexOf("/"));
 		
-		String filePath = req.getServletPath();//绝对路径
+		String filePath = req.getServletContext().getRealPath("");//绝对路径
 		
 		
 		if(action.equals("/upload_cover.jhtml")){

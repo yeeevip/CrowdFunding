@@ -297,7 +297,7 @@ public class ProjectDaoImpl extends JDBCBase implements ProjectDao {
 			/**
 			 * 最后再把项目发布者身份信息也保存
 			 */
-			if(identity.getClass().getName().equals("campsg.zhongchou.entity.InitiatorPersonInfo")){
+			if(identity instanceof InitiatorPersonInfo){
 				String pers_sql = "INSERT INTO Initiator_personInfo (project,name,IDnumber,phone,IDpicFace,IDpicInverse) VALUES(?,?,?,?,?,?)";
 				Object[] param4 = {project_id,
 						((InitiatorPersonInfo) identity).getName(),

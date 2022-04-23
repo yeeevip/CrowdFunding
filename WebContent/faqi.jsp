@@ -7,8 +7,9 @@
 <link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath }/css/faqi.css">
 <link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath }/css/common.css">
 <link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath }/css/project.css">
+<link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath }/js/webuploader-0.1.5/webuploader.css">
 <script type="text/javascript" src="${pageContext.request.contextPath }/js/jquery-3.1.1.min.js"></script>
-<script type="text/javascript" src="${pageContext.request.contextPath }/js/jquery.uploadify.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath }/js/webuploader-0.1.5/webuploader.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath }/js/faqi.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath }/js/layer/layer.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath }/js/Validform_v5.3.2/js/Validform_v5.3.2.js"></script>
@@ -189,8 +190,8 @@ function daoHang(obj){
 	            		<div class="material-list-pic"></div>
 	            		<div style="left:351px;height: 60px;width: 100px;position:absolute;">
 	            			<div class="uplodify_in_repeat_0person-button">上传</div>
-	            			<input style="opacity:0;" type="file" class="uplodify_in_repeat_0person"  id="uplodify_in_repeat_0person1">
-
+							<div id="uplodify_in_repeat_0person1" class="uplodify_in_repeat_0person"></div>
+							<%--<input style="opacity:0;" type="file" class="uplodify_in_repeat_0person"  id="uplodify_in_repeat_0person1">--%>
 	            		</div>
 	            	</div>
 	            	<div class="material-list">
@@ -198,8 +199,8 @@ function daoHang(obj){
 	            		<div class="material-list-pic"></div>
 	            		<div style="left:351px;height: 60px;width: 100px;position:absolute;">
 	            			<div class="uplodify_in_repeat_0person-button">上传</div>
-	            			<input style="opacity:0;" type="file" class="uplodify_in_repeat_0person" id="uplodify_in_repeat_0person2">
-
+							<div id="uplodify_in_repeat_0person2" class="uplodify_in_repeat_0person"></div>
+	            			<%--<input style="opacity:0;" type="file" class="uplodify_in_repeat_0person" id="uplodify_in_repeat_0person2">--%>
 	            		</div>
 	            	</div>
 	            </ul>
@@ -322,18 +323,10 @@ function daoHang(obj){
 	                            <div id="show_cover" style="padding-left:95px;padding-top:0px;">
 <!-- 	                            	<img width="400px" height="300px" src="http://localhost:8080/%J4}1H7MJTS[FEVV2PRUQ[S.jpg"> -->
 		                            <div style="height: 60px; width: 500px; position: relative;">
-		                            	
-		                            	<div style="height: 60px; line-height: 60px; width: 500px;">
-		                            	 
-		                            		<div class="set_cover"><input  id="set_cover" name="cover_img" type="file" style="width:67px;height:63px; opacity:0"/></div>
-		                            		<span class="set-cover-intro" >建议尺寸大小640*480，图片大小不要超过5M！</span>
-		                            	</div>
+										<div id="set_cover" class="set_cover"></div>
+										<span class="set-cover-intro" >建议尺寸大小640*480，图片大小不要超过5M！</span>
 		                            </div>	                            
 	                            </div>
-	                           
-	                           
-	                           
-	                            
 	                        </li>
 	                        <li>
 	                            <label>项目标题：</label>
@@ -386,7 +379,6 @@ function daoHang(obj){
 		                        <div class="upload_detital_pic"> 
 		                        	
 		                        </div>
-
 		                        
 		                        
 		                        <div id="content_picBox">
@@ -398,8 +390,10 @@ function daoHang(obj){
 								        </div>
 								        <div calss="pic_bottom">
 								        	<div class="input_btn">
-								        		
-								        		<div class="button_pic"><input type="file" class="uploadPic" id="uploadPic1"/></div>
+								        		<div class="button_pic">
+													<%--<input type="file" class="uploadPic" id="uploadPic1"/>--%>
+													<div id="uploadPic1" class="uploadPic"></div>
+												</div>
 								        	</div>
 								            <p class="pic_bottom_p">支持JPG、GIF、PNG格式的图片，不超过1M大小</p>
 								        </div>
@@ -439,8 +433,10 @@ function daoHang(obj){
 								        </div>
 								        <div calss="pic_bottom">
 								        	<div class="input_btn">
-								        		
-								        		<div class="button_pic"><input type="file" class="uploadPic" id="uploadPic2"/></div>
+								        		<div class="button_pic">
+													<div id="uploadPic2" class="uploadPic"></div>
+													<%--<input type="file" class="uploadPic" id="uploadPic2"/>--%>
+												</div>
 								        	</div>
 								            <p class="pic_bottom_p">支持JPG、GIF、PNG格式的图片，不超过1M大小</p>
 								        </div>
@@ -477,8 +473,10 @@ function daoHang(obj){
 								        </div>
 								        <div calss="pic_bottom">
 								        	<div class="input_btn">
-								        		
-								        		<div class="button_pic"><input type="file" class="uploadPic" id="uploadPic3"/></div>
+								        		<div class="button_pic">
+													<div id="uploadPic3" class="uploadPic"></div>
+													<%--<input type="file" class="uploadPic" id="uploadPic3"/>--%>
+												</div>
 								        	</div>
 								            <p class="pic_bottom_p">支持JPG、GIF、PNG格式的图片，不超过1M大小</p>
 								        </div>
