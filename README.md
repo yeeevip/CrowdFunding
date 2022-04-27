@@ -1,10 +1,16 @@
 # CrowdFunding（众筹系统）
 
-        此系统是作者本人在上学期间使用java + servlet + jsp 基础语言开发，没有使用任何现在主流框架，如ssm，maven，很适合新手学习。
+        此系统是作者本人在上学期间使用 java + jdbc + servlet + jsp + html + js + jquery 基础语言开发，没有使用任何现在主流框架，如ssm，maven，很适合新手学习。
     此外数据源使用了c3p0连接池，同时系统支持mysql-8，并且兼容mysql5.7
 
+## [基于springboot的前后端分离重构实现]（计划中...）
 
-## 一、使用
+| #   | 仓库         | 链接        |
+|-----|------------|-----------|
+| 1   | `[码云]`     | [Gitee](https://gitee.com/quhailong/yeeee_crowdfunding.git) |
+| 2   | `[Github]` | [Github](https://github.com/quhailong1995/yeeee_crowdfunding.git) |
+
+## 一、怎么运行起来
 1.复制git地址拉取项目然后进行构建
 
 2.所需依赖jar包位置：/WebContent/WEB-INF/lib
@@ -16,7 +22,7 @@
 此外项目有问题欢迎提出 ，安装运行过程中遇到问题可以联系我的 QQ ： 1324459373，qq 群：69405215
 
 
-## 二、项目概述
+## 二、功能概述
 
 基础流程介绍（发布项目--审核--用户支持购买项目服务）
 

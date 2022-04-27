@@ -16,8 +16,8 @@
 
 	<div class="mainInnerBox">
 
-		<div class="siteHtelBox">官方咨询电话							
-        	<span>123-456-789</span>
+		<div class="siteHtelBox">官方咨询QQ
+        	<span>1324459373</span>
         </div>
 
 	<!--手机app&&联系电话 begin-->
