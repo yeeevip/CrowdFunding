@@ -12,7 +12,7 @@
 <script type="text/javascript" src="admin.js"></script>
 
 <script type="text/javascript">
-	
+	var contextPath = '${pageContext.request.contextPath }'
 
 </script>
 </head>

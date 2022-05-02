@@ -134,7 +134,10 @@ $(document).ready(function(){
     	var email = $("#user_ziliao input[name='email']").val();//邮箱
     	var real_name = $("#user_ziliao input[name='real_name']").val();//真实姓名
     	var id_number = $("#user_ziliao input[name='id_number']").val();//身份证号码
-    	
+    	var oldPassword = $("#user_password input[name='oldPassword']").val();//
+    	var newPassword = $("#user_password input[name='newPassword']").val();//
+    	var newPassword2 = $("#user_password input[name='newPassword2']").val();//
+
 //    	alert(user_name);
 		
     	$.ajax({
@@ -147,17 +150,22 @@ $(document).ready(function(){
                 phone: phone,
                 email: email,
                 real_name: real_name,
-                id_number: id_number
+                id_number: id_number,
+				oldPassword: oldPassword,
+				newPassword: newPassword,
+				newPassword2: newPassword2
                
             },
-            async: true,   //是否为异步请求
-            cache: false,  //是否缓存结果
+            async: false,   //是否为异步请求
             type: "POST", //请求方式为POST
-            dataType: "json",   //服务器返回的数据是什么类型 
+            dataType: "",   //服务器返回的数据是什么类型
             success: function(result){  //这个方法会在服务器执行成功是被调用 ，参数result就是服务器返回的值(现在是json类型) 
             	console.log(result);
-            	if(result)
-            		alert("修改成功！！！");
+            	if(result == 'true') {
+					layer.alert("修改成功！！！")
+				} else {
+					layer.alert(result)
+				}
             }
           });
 
@@ -194,8 +202,8 @@ $(document).ready(function(){
                         	'</tr>'+
                         	'<tr class="inforTr">'+
                         		'<td>'+
-                        			'<div class="ddImgBox"><a href="javascript:;" target="_blank"><img style="width:80px;height:60px;" src="'+Ojson[i].project.img_name+'"></a></div>'+
-                        			'<div class="ddImgText"><a href="javascript:;" target="_blank">'+Ojson[i].project.title+'</a></div>'+
+                        			'<div class="ddImgBox"><a href="'+contextPath+'/project.jhtml?id=' + Ojson[i].project.project_id + '" target="_blank"><img style="width:80px;height:60px;" src="'+Ojson[i].project.img_name+'"></a></div>'+
+                        			'<div class="ddImgText"><a href="'+contextPath+'/project.jhtml?id=' + Ojson[i].project.project_id + '" target="_blank">'+Ojson[i].project.title+'</a></div>'+
                         		'</td>'+
                         		'<td><div><p class="inforText_p gray">'+Ojson[i].project.is_audits+'</p></div></td>'+
                         	'	<td>'+
@@ -359,8 +367,8 @@ $(document).ready(function(){
                         	+'</tr>'
                         	+'<tr class="inforTr" project_id="">'
                         	+'<td>'
-                        	+'<div class="ddImgBox"><a href="javascript:;" target="_blank"><img style="width:80px;height:60px;" src="'+Ojson[i].img_name+'"></a></div>'
-                        	+'<div class="ddImgText"><a href="javascript:;" target="_blank">'+Ojson[i].title+'</a></div>'
+                        	+'<div class="ddImgBox"><a href="'+contextPath+'/project.jhtml?id=' + Ojson[i].project_id + '" target="_blank"><img style="width:80px;height:60px;" src="'+Ojson[i].img_name+'"></a></div>'
+                        	+'<div class="ddImgText"><a href="'+contextPath+'/project.jhtml?id=' + Ojson[i].project_id + '" target="_blank">'+Ojson[i].title+'</a></div>'
                         	+'</td>'
                         	+'<td>'
                         	+'<div>'
@@ -400,16 +408,15 @@ $(document).ready(function(){
 //更新项目最新状态
 function goProjectProcess(project_id){
 
-	debugger
-
 	layer.open({
 	      type: 2,
 	      title: '发布项目最新动态',
 	      shadeClose: true,
+		scrollbar: true,
 	      shade: false,
-	      maxmin: false, //开启最大化最小化按钮
+	      maxmin: true, //开启最大化最小化按钮
 	      area: ['893px', '600px'],
-	      content: ['projectProcessPage?project_id='+project_id,'no']
+	      content: [contextPath + '/projectProcessPage?project_id='+project_id,'yes']
 	    });
 
 	
@@ -429,7 +436,7 @@ function setDefaultReceiveInfo(receiveId){
 					//var index = layer.getFrameIndex(window.name); 
 					var index = layer.alert();
 					layer.close(index);
-					
+					$("#showMyReceive").trigger('click')
 			      //  parent.layer.close(index);
 					//window.location.href='showPerson.jhtml';
 				});

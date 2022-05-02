@@ -4,6 +4,7 @@ import java.sql.SQLException;
 import java.util.List;
 
 import com.yeah.zhongchou.entity.ReceiveInfo;
+import com.yeah.zhongchou.entity.User;
 
 /** * @author  Hacker110 * @date 2016年12月28日 下午6:30:56 * @version 1.0  */
 public interface ReceiveInfoDao {
@@ -25,6 +26,6 @@ public interface ReceiveInfoDao {
 	
 	int deleteReceiveInfo(Integer id) throws SQLException;
 	
-	List<ReceiveInfo> queryReceiveInfos()  throws SQLException ;
+	List<ReceiveInfo> queryReceiveInfos(User user)  throws SQLException ;
 	
 }

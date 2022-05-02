@@ -9,6 +9,7 @@ import java.util.List;
 
 import com.yeah.zhongchou.dao.ReceiveInfoDao;
 import com.yeah.zhongchou.entity.ReceiveInfo;
+import com.yeah.zhongchou.entity.User;
 import com.yeah.zhongchou.utils.JDBCUtils;
 import com.yeah.zhongchou.utils.Packager;
 
@@ -174,10 +175,13 @@ public class ReceiveInfoDaoImpl extends JDBCBase implements ReceiveInfoDao {
 	}
 
 	@Override
-	public List<ReceiveInfo> queryReceiveInfos() throws SQLException {
+	public List<ReceiveInfo> queryReceiveInfos(User user) throws SQLException {
 		// TODO Auto-generated method stub
 		Connection con = JDBCUtils.getConnection();
-		String sql = "SELECT * FROM receive_information";
+		String sql = "SELECT * FROM receive_information where 1=1";
+		if (user != null) {
+			sql += " and user=" + user.getId();
+		}
 		PreparedStatement ps = null;
 		ResultSet rs = null;
 		List<ReceiveInfo> receiveInfos = new ArrayList<>();

@@ -16,6 +16,7 @@
 
 
 <script type="text/javascript">
+	var contextPath = '${pageContext.request.contextPath }'
 $(document).ready(function(){
 	getProvince(0,$("select[name='province']"));//所有省份
 	$("select[name='province']").change(function(){
@@ -125,8 +126,8 @@ $(document).ready(function(){
                         	</tr>
                         	<tr class="inforTr" project_id="">
                         		<td>
-                        			<div class="ddImgBox"><a href="javascript:;" target="_blank"><img style="width:80px;height:60px;" src="${p.img_name }"></a></div>
-                        			<div class="ddImgText"><a href="javascript:;" target="_blank">${p.title }</a></div>
+                        			<div class="ddImgBox"><a href="${pageContext.request.contextPath }/project.jhtml?id=${p.project_id}" target="_blank"><img style="width:80px;height:60px;" src="${p.img_name }"></a></div>
+                        			<div class="ddImgText"><a href="${pageContext.request.contextPath }/project.jhtml?id=${p.project_id}" target="_blank">${p.title }</a></div>
                         		</td>
                         		<td>
                         			<div>
@@ -380,18 +381,18 @@ $(document).ready(function(){
 			        </div>
 			        <div class="xiugai_form">
 				    	<form>
-				        	<ul>
+				        	<ul id="user_password">
 				            	<li>
 				                	<label>请输入旧密码：</label>
-				                    <input type="text" />
+				                    <input name="oldPassword" type="text" />
 				                </li>
 				                <li>
 				                	<label>请输入新密码：</label>
-				                    <input type="text" />
+				                    <input name="newPassword" type="text" />
 				                </li>
 				                <li>
 				                	<label>请确认密码：</label>
-				                    <input type="text" />
+				                    <input name="newPassword2" type="text" />
 				                </li>
 				                <li>
 				                	<div>

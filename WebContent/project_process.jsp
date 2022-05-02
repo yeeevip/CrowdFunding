@@ -6,8 +6,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath }/css/faqi.css">
 <link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath }/css/common.css">
-<script type="text/javascript" src="${pageContext.request.contextPath }/js/jquery-3.1.1.min.js"></script>
-<script type="text/javascript" src="${pageContext.request.contextPath }/js/layer/layer.js"></script>
+	<link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath }/js/webuploader-0.1.5/webuploader.css">
+	<script type="text/javascript" src="${pageContext.request.contextPath }/js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="${pageContext.request.contextPath }/js/webuploader-0.1.5/webuploader.js"></script>
+	<script type="text/javascript" src="${pageContext.request.contextPath }/js/layer/layer.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath }/js/faqi.js"></script>
 
 <script type="text/javascript">
@@ -61,7 +63,10 @@ $(document).ready(function(){})
 								        <div calss="pic_bottom">
 								        	<div class="input_btn">
 								        		
-								        		<div class="button_pic"><input type="file" class="uploadPic" id="uploadPic1"/></div>
+								        		<div class="button_pic">
+													<div id="uploadPiuploadPic1c2" class="uploadPic"></div>
+
+												</div>
 								        	</div>
 								            <p class="pic_bottom_p">支持JPG、GIF、PNG格式的图片，不超过1M大小</p>
 								        </div>

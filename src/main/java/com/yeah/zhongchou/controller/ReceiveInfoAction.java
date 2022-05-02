@@ -99,7 +99,7 @@ public class ReceiveInfoAction extends HttpServlet {
 		if(action.equals("/queryReceiveInfo")){
 			List<ReceiveInfo> receiveInfos = null;
 			try {
-				receiveInfos = receiveInfoDaoImpl.queryReceiveInfos();
+				receiveInfos = receiveInfoDaoImpl.queryReceiveInfos(user);
 				req.setAttribute("receiveInfos", receiveInfos);
 				resp.getWriter().print(JSONArray.fromObject(receiveInfos));
 			} catch (SQLException e) {

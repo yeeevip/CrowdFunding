@@ -103,7 +103,7 @@ $(document).ready(function(){
             		"<td></td>"+
             		"<td></td>"+
             		"<td>"+project[i].is_audits+"</td>"+
-            		"<td>查看</td>"+
+            		"<td><a target='_blank' href='" + contextPath + "/project.jhtml?id="+project[i].project_id+"'>查看</a></td>"+
             	"</tr>");
 		}
 	});

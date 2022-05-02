@@ -265,8 +265,7 @@ function daoHang(obj){
 	            		<div class="material-list-pic"><img alt="" src=""></div>
 	            		<div style="left:351px;height: 60px;width: 100px;position:absolute;">
 	            			<div class="uplodify_in_repeat_0person-button">上传</div>
-	            			<input style="opacity:0;" type="file" class="uplodify_in_repeat_0person" id="uplodify_in_repeat_0person3">
-	            			
+							<div id="uplodify_in_repeat_0person3" class="uplodify_in_repeat_0person"></div>
 	            		</div>
 	            	</div>
 	            	<div class="material-list">
@@ -274,8 +273,7 @@ function daoHang(obj){
 	            		<div class="material-list-pic"><img alt="" src=""></div>
 	            		<div style="left:351px;height: 60px;width: 100px;position:absolute;">
 	            			<div class="uplodify_in_repeat_0person-button">上传</div>
-	            			<input style="opacity:0;" type="file" class="uplodify_in_repeat_0person" id="uplodify_in_repeat_0person4">
-	            			
+							<div id="uplodify_in_repeat_0person4" class="uplodify_in_repeat_0person"></div>
 	            		</div>
 	            	</div>
 	            	<div class="material-list">
@@ -283,8 +281,7 @@ function daoHang(obj){
 	            		<div class="material-list-pic"><img alt="" src=""></div>
 	            		<div style="left:351px;height: 60px;width: 100px;position:absolute;">
 	            			<div class="uplodify_in_repeat_0person-button">上传</div>
-	            			<input style="opacity:0;" type="file" class="uplodify_in_repeat_0person" id="uplodify_in_repeat_0person5">
-	            			
+							<div id="uplodify_in_repeat_0person5" class="uplodify_in_repeat_0person"></div>
 	            		</div>
 	            	</div>
 	            </ul>

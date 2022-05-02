@@ -12,6 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.yeah.zhongchou.constant.Constants;
 import com.yeah.zhongchou.dao.jdbc.UserDaoImpl;
 import com.yeah.zhongchou.entity.User;
+import com.yeah.zhongchou.utils.Untils;
 
 /** * @author  作者 E-mail: * @date 创建时间：2016年12月15日 下午10:17:50 * @version 1.0 * @parameter  * @since  * @return  */
 public class ReviseUserAction extends HttpServlet {
@@ -38,7 +39,12 @@ public class ReviseUserAction extends HttpServlet {
 		
 		
 		PrintWriter out = resp.getWriter();
-		out.print(true);
+		if (req.getAttribute("respMessage") != null) {
+			out.print(req.getAttribute("respMessage"));
+		} else {
+			out.print("true");
+		}
+
 		out.flush();
 	}
 
@@ -57,7 +63,22 @@ public class ReviseUserAction extends HttpServlet {
 		String email = request.getParameter("email");
 		String real_name = request.getParameter("real_name");
 		String id_number = request.getParameter("id_number");
-		
+		String oldPassword = request.getParameter("oldPassword");
+		String newPassword = request.getParameter("newPassword");
+		String newPassword2 = request.getParameter("newPassword2");
+
+		if (newPassword != null && !newPassword.equals("")) {
+			if (!user.getPassword().equals(Untils.toMD5(oldPassword))) {
+				request.setAttribute("respMessage", "旧密码错误");
+				return;
+			}
+			if (!newPassword.equals(newPassword2)) {
+				request.setAttribute("respMessage", "两次新密码不一致");
+				return;
+			}
+			user.setPassword(Untils.toMD5(newPassword));
+		}
+
 		// 将数据封装到user对象
 		user.setId_number(id_number);
 		user.setUser_name(user_name);

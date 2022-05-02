@@ -141,6 +141,10 @@ public class UserDaoImpl extends JDBCBase implements UserDao {
 			sql.append(",sex=?");
 			pList.add(user.getSex());
 		}
+		if(user.getPassword()!=null){
+			sql.append(",password=?");
+			pList.add(user.getPassword());
+		}
 		sql.append("WHERE id="+user.getId());
 
 		
