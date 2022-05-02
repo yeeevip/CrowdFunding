@@ -425,6 +425,7 @@ public class ProjectDaoImpl extends JDBCBase implements ProjectDao {
 		// TODO Auto-generated method stub
 		Connection con = JDBCUtils.getConnection();
 		String sql = "UPDATE project SET has_fund_raising="+p.getHas_fund_raising();
+		sql += " where project_id = " + p.getProject_id();
 		PreparedStatement ps = null;
 		try{
 			ps = con.prepareStatement(sql);
