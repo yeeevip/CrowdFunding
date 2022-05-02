@@ -125,10 +125,16 @@ $(document).ready(function(){
 			    	
 			    	var proRuestl_4= $("#identityInfo").serializeJson();//数据序列化
 			    	var szimg = $("img#shenfenxinxi:eq(0)").attr("src");
-			    	var sfimg = $("img#shenfenxinxi:eq(1)").attr("src");//alert($("img#shenfenxinxi").length);
+			    	var sfimg = $("img#shenfenxinxi:eq(1)").attr("src");
+			    	var yyImg = $("img#shenfenxinxi:eq(2)").attr("src");
+			    	var zzImg = $("img#shenfenxinxi:eq(3)").attr("src");
+			    	var swImg = $("img#shenfenxinxi:eq(4)").attr("src");
 			    	proRuestl_4.szimg = szimg;
 			    	proRuestl_4.sfimg = sfimg;
-			    
+			    	proRuestl_4.yyImg = yyImg;
+			    	proRuestl_4.zzImg = zzImg;
+			    	proRuestl_4.swImg = swImg;
+
 			    	
 
 			    	var param;

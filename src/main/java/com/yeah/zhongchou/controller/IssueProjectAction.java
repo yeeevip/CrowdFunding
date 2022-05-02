@@ -180,7 +180,11 @@ public class IssueProjectAction extends HttpServlet {
 			String contactName = request.getParameter("contactName");
 			String contactPhone = request.getParameter("contactPhone");
 			String slanderName = request.getParameter("slanderName");
-		/*	
+
+			String yyImg = request.getParameter("yyImg");
+			String zzImg = request.getParameter("zzImg");
+			String swImg = request.getParameter("swImg");
+		/*
 			String slanderName = request.getParameter("slanderName");
 			String slanderName = request.getParameter("slanderName");
 			String slanderName = request.getParameter("slanderName");*/
@@ -194,6 +198,12 @@ public class IssueProjectAction extends HttpServlet {
 			initiatorCompanyInfo.setContactName(contactName);
 			initiatorCompanyInfo.setContactPhone(contactPhone);
 			initiatorCompanyInfo.setSlanderName(slanderName);
+
+
+			initiatorCompanyInfo.setLicenesPic(yyImg);
+			initiatorCompanyInfo.setRegisteredNumPic(zzImg);
+			initiatorCompanyInfo.setTaxPig(swImg);
+
 			//存进数据库
 //			initiatorInfoDaoImpl.saveInitiatorCompanyInfo(initiatorCompanyInfo);
 			projectDaoImpl.saveProject(project, projectdetails, projectRepays, initiatorCompanyInfo);

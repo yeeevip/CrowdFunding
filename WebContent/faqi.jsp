@@ -187,7 +187,7 @@ function daoHang(obj){
 	            <ul class="fq_body_ul" style="padding-bottom:25px;">
 	            	<div class="material-list">
 	            		<span>个人身份证-正面</span>
-	            		<div class="material-list-pic"></div>
+	            		<div class="material-list-pic"><img id="shenfenxinxi" src=""></div>
 	            		<div style="left:351px;height: 60px;width: 100px;position:absolute;">
 	            			<div class="uplodify_in_repeat_0person-button">上传</div>
 							<div id="uplodify_in_repeat_0person1" class="uplodify_in_repeat_0person"></div>
@@ -196,7 +196,7 @@ function daoHang(obj){
 	            	</div>
 	            	<div class="material-list">
 	            		<span>个人身份证-反面</span>
-	            		<div class="material-list-pic"></div>
+	            		<div class="material-list-pic"><img id="shenfenxinxi" src=""></div>
 	            		<div style="left:351px;height: 60px;width: 100px;position:absolute;">
 	            			<div class="uplodify_in_repeat_0person-button">上传</div>
 							<div id="uplodify_in_repeat_0person2" class="uplodify_in_repeat_0person"></div>
@@ -262,7 +262,7 @@ function daoHang(obj){
 	            <ul class="fq_body_ul" style="padding-bottom:25px;">
 	            	<div class="material-list">
 	            		<span>营业执照:</span>
-	            		<div class="material-list-pic"><img alt="" src=""></div>
+	            		<div class="material-list-pic"><img id="shenfenxinxi" src=""></div>
 	            		<div style="left:351px;height: 60px;width: 100px;position:absolute;">
 	            			<div class="uplodify_in_repeat_0person-button">上传</div>
 							<div id="uplodify_in_repeat_0person3" class="uplodify_in_repeat_0person"></div>
@@ -270,7 +270,7 @@ function daoHang(obj){
 	            	</div>
 	            	<div class="material-list">
 	            		<span>组织机构代码证:</span>
-	            		<div class="material-list-pic"><img alt="" src=""></div>
+	            		<div class="material-list-pic"><img id="shenfenxinxi" src=""></div>
 	            		<div style="left:351px;height: 60px;width: 100px;position:absolute;">
 	            			<div class="uplodify_in_repeat_0person-button">上传</div>
 							<div id="uplodify_in_repeat_0person4" class="uplodify_in_repeat_0person"></div>
@@ -278,7 +278,7 @@ function daoHang(obj){
 	            	</div>
 	            	<div class="material-list">
 	            		<span>税务登记证:</span>
-	            		<div class="material-list-pic"><img alt="" src=""></div>
+	            		<div class="material-list-pic"><img id="shenfenxinxi" src=""></div>
 	            		<div style="left:351px;height: 60px;width: 100px;position:absolute;">
 	            			<div class="uplodify_in_repeat_0person-button">上传</div>
 							<div id="uplodify_in_repeat_0person5" class="uplodify_in_repeat_0person"></div>
