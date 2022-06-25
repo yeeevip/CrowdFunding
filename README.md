@@ -40,6 +40,9 @@
 #### 5.编辑预览
    ![image](http://oos.yeee.vip/5.%E5%8F%91%E8%B5%B7%E9%A1%B9%E7%9B%AE-%E7%BC%96%E8%BE%91%E9%A2%84%E8%A7%88.png)
 
+#### 工作面试学习资料领取
+![image](https://oos.yeee.vip/JAVA%E9%AB%98%E7%BA%A7%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF.png)
+
 ### 二、前台页面
 #### 1.项目详情
    ![image](http://oos.yeee.vip/13.%E6%B5%8B%E8%AF%95%E9%A1%B9%E7%9B%AE%20-%E8%AF%A6%E6%83%85%E9%A1%B5.png)
