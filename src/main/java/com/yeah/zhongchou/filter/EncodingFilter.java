@@ -26,9 +26,9 @@ public class EncodingFilter implements Filter {
 		HttpServletRequest req=(HttpServletRequest)request;
 		//System.out.println("EncodingFilter获得请求："+req.getRequestURI());
 
-		if (response.getContentType() == null || response.getContentType().equals("")) {
-			response.setContentType("text/html;charset=utf-8");
-		}
+//		if (response.getContentType() == null || response.getContentType().equals("")) {
+//			response.setContentType("text/html;charset=utf-8");
+//		}
 
 		String encoding = this.encoding;
 		if(encoding != null){
