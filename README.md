@@ -126,9 +126,6 @@
 
 ## 2. 后台
 
-#### 工作面试学习资料领取
-![image](https://oos.yeee.vip/JAVA%E9%AB%98%E7%BA%A7%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF.png)
-
 > 用户管理 - 项目管理+审核 - 订单管理
 >
 - 页面地址：http://localhost:9080/admin
