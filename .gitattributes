@@ -1,0 +1,8 @@
+*.js linguist-language=java
+*.scss linguist-language=java
+*.less linguist-language=java
+*.vue linguist-language=java
+*.php linguist-language=java
+*.css linguist-language=java
+*.html linguist-language=java
+*.java linguist-language=java
