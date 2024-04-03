@@ -14,7 +14,7 @@ import com.yeah.zhongchou.dao.jdbc.UserDaoImpl;
 import com.yeah.zhongchou.entity.User;
 import com.yeah.zhongchou.utils.Untils;
 
-/** * @author  作者 E-mail: * @date 创建时间：2016年12月15日 下午10:17:50 * @version 1.0 * @parameter  * @since  * @return  */
+/** * @author https://www.yeee.vip https://www.yeee.vip  作者 E-mail: * @date 创建时间：2016年12月15日 下午10:17:50 * @version 1.0 * @parameter  * @since  * @return  */
 public class ReviseUserAction extends HttpServlet {
 	
 	/**

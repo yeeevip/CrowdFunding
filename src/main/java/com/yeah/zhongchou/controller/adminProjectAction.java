@@ -14,7 +14,7 @@ import com.yeah.zhongchou.dao.jdbc.ProjectDaoImpl;
 import com.yeah.zhongchou.entity.Project;
 import net.sf.json.JSONArray;
 
-/** * @author  作者 E-mail: * @date 创建时间：2016年12月14日 上午11:33:12 * @version 1.0 * @parameter  * @since  * @return  */
+/** * @author https://www.yeee.vip  作者 E-mail: * @date 创建时间：2016年12月14日 上午11:33:12 * @version 1.0 * @parameter  * @since  * @return  */
 public class adminProjectAction extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private ProjectDaoImpl projectDaoImpl = new ProjectDaoImpl();

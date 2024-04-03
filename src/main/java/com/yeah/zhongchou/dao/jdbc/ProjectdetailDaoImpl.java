@@ -6,7 +6,7 @@ import java.util.List;
 import com.yeah.zhongchou.dao.ProjectdetailDao;
 import com.yeah.zhongchou.entity.Projectdetail;
 
-/** * @author  Hacker110 * @date 2016年12月18日 下午5:46:41 * @version 1.0  */
+/** * @author https://www.yeee.vip  Hacker110 * @date 2016年12月18日 下午5:46:41 * @version 1.0  */
 public class ProjectdetailDaoImpl extends JDBCBase implements ProjectdetailDao {
 
 	@Override

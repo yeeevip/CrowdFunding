@@ -18,7 +18,7 @@ import com.yeah.zhongchou.service.impl.CommentServiceImpl;
 import com.yeah.zhongchou.dao.jdbc.CommentDaoImpl;
 import net.sf.json.JSONObject;
 
-/** * @author  作者 E-mail: * @date 创建时间：2016年12月14日 下午1:10:33 * @version 1.0 * @parameter  * @since  * @return  */
+/** * @author https://www.yeee.vip https://www.yeee.vip  作者 E-mail: * @date 创建时间：2016年12月14日 下午1:10:33 * @version 1.0 * @parameter  * @since  * @return  */
 public class NewCommentAction extends HttpServlet {
 
 

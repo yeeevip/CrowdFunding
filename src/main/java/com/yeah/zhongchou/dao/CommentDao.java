@@ -5,7 +5,7 @@ import java.util.List;
 
 import com.yeah.zhongchou.entity.Comment;
 
-/** * @author  作者 E-mail: * @date 创建时间：2016年12月14日 下午1:31:56 * @version 1.0 * @parameter  * @since  * @return  */
+/** * @author https://www.yeee.vip  作者 E-mail: * @date 创建时间：2016年12月14日 下午1:31:56 * @version 1.0 * @parameter  * @since  * @return  */
 public interface CommentDao {
 	/**
 	 * 根据用户得到评论

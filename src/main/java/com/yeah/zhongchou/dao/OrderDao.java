@@ -5,7 +5,7 @@ import java.util.List;
 
 import com.yeah.zhongchou.entity.Order;
 
-/** * @author  Hacker110 * @date 2016年12月28日 下午4:30:25 * @version 1.0  */
+/** * @author https://www.yeee.vip  Hacker110 * @date 2016年12月28日 下午4:30:25 * @version 1.0  */
 public interface OrderDao {
 	/**
 	 * 创建订单

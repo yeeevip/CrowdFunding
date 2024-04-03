@@ -1,4 +1,4 @@
-package com.yeah.zhongchou.utils;/** * @author  作者 E-mail: * @date 创建时间：2016年12月12日 下午4:19:57 * @version 1.0 * @parameter  * @since  * @return  */
+package com.yeah.zhongchou.utils;/** * @author https://www.yeee.vip  作者 E-mail: * @date 创建时间：2016年12月12日 下午4:19:57 * @version 1.0 * @parameter  * @since  * @return  */
 
 import java.io.File;
 import java.io.IOException;

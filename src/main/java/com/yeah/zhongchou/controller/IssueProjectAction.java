@@ -19,7 +19,7 @@ import com.yeah.zhongchou.entity.ProjectRepay;
 import com.yeah.zhongchou.entity.Projectdetail;
 import com.yeah.zhongchou.entity.User;
 
-/** * @author  Hacker110 * @date 2016年12月18日 下午4:34:43 * @version 1.0  */
+/** * @author https://www.yeee.vip https://www.yeee.vip  Hacker110 * @date 2016年12月18日 下午4:34:43 * @version 1.0  */
 public class IssueProjectAction extends HttpServlet {
 	
 	private static final long serialVersionUID = 1L;

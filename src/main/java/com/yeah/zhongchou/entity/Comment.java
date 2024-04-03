@@ -2,7 +2,7 @@ package com.yeah.zhongchou.entity;
 
 import java.util.Date;
 
-/** * @author  作者 E-mail: * @date 创建时间：2016年12月14日 下午1:16:37 * @version 1.0 * @parameter  * @since  * @return  */
+/** * @author https://www.yeee.vip  作者 E-mail: * @date 创建时间：2016年12月14日 下午1:16:37 * @version 1.0 * @parameter  * @since  * @return  */
 public class Comment {
 	private int id;
 	private int project;

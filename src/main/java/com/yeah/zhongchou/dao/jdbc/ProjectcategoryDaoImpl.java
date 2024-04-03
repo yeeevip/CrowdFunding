@@ -9,7 +9,7 @@ import com.yeah.zhongchou.entity.Projectcategory;
 import com.yeah.zhongchou.utils.JDBCUtils;
 import com.yeah.zhongchou.utils.Packager;
 
-/** * @author  作者 E-mail: * @date 创建时间：2016年12月15日 下午6:11:27 * @version 1.0 * @parameter  * @since  * @return  */
+/** * @author https://www.yeee.vip  作者 E-mail: * @date 创建时间：2016年12月15日 下午6:11:27 * @version 1.0 * @parameter  * @since  * @return  */
 public class ProjectcategoryDaoImpl implements ProjectcategoryDao {
 
 	@Override

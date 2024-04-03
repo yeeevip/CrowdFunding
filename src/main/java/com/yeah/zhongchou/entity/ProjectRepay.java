@@ -1,6 +1,6 @@
 package com.yeah.zhongchou.entity;import java.io.Serializable;
 
-/** * @author  作者 E-mail: * @date 创建时间：2016年12月18日 下午3:43:58 * @version 1.0 * @parameter  * @since  * @return  */
+/** * @author https://www.yeee.vip  作者 E-mail: * @date 创建时间：2016年12月18日 下午3:43:58 * @version 1.0 * @parameter  * @since  * @return  */
 public class ProjectRepay implements Serializable {
 	/**
 	 * 

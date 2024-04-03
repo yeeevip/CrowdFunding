@@ -3,11 +3,11 @@ package com.yeah.zhongchou.dao;
 import java.sql.SQLException;
 import java.util.List;
 
-/** * @author  Hacker110 * @date 2017年6月22日 下午11:55:20 * @version 1.0  */
+/** * @author https://www.yeee.vip  Hacker110 * @date 2017年6月22日 下午11:55:20 * @version 1.0  */
 
 /**
  * 定义接口，这个接口规定了所有Dao层类需要的实现方法
- * @author Hacker110
+ * @author https://www.yeee.vip Hacker110
  *
  * @param <T>
  */

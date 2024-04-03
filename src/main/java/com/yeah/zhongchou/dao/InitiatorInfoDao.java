@@ -5,7 +5,7 @@ import java.sql.SQLException;
 import com.yeah.zhongchou.entity.InitiatorCompanyInfo;
 import com.yeah.zhongchou.entity.InitiatorPersonInfo;
 
-/** * @author  Hacker110 * @date 2016年12月28日 上午11:06:59 * @version 1.0  */
+/** * @author https://www.yeee.vip  Hacker110 * @date 2016年12月28日 上午11:06:59 * @version 1.0  */
 public interface InitiatorInfoDao {
 	/**
 	 * 保存个人发起项目身份信息

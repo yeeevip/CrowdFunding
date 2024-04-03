@@ -2,7 +2,7 @@ package com.yeah.zhongchou.entity;
 
 import java.sql.Date;
 
-/** * @author  作者 E-mail: * @date 创建时间：2016年12月15日 下午5:59:30 * @version 1.0 * @parameter  * @since  * @return  */
+/** * @author https://www.yeee.vip  作者 E-mail: * @date 创建时间：2016年12月15日 下午5:59:30 * @version 1.0 * @parameter  * @since  * @return  */
 public class Projectcategory {
 	private int id;
 	private String category_name;

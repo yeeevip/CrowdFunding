@@ -14,7 +14,7 @@ import com.yeah.zhongchou.utils.Untils;
 /**
  * 用户表的Service类
  */
-/** * @author  作者 E-mail: * @date 创建时间：2016年12月12日 下午4:10:20 * @version 1.0 * @parameter  * @since  * @return  */
+/** * @author https://www.yeee.vip  作者 E-mail: * @date 创建时间：2016年12月12日 下午4:10:20 * @version 1.0 * @parameter  * @since  * @return  */
 public class UserServiceImpl implements UserService {
 
 	private UserDaoImpl userDaoImpl=new UserDaoImpl();

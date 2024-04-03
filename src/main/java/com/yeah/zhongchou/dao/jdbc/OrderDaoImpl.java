@@ -18,7 +18,7 @@ import com.yeah.zhongchou.entity.User;
 import com.yeah.zhongchou.utils.JDBCUtils;
 import com.yeah.zhongchou.utils.Packager;
 
-/** * @author  Hacker110 * @date 2016年12月28日 下午4:39:10 * @version 1.0  */
+/** * @author https://www.yeee.vip  Hacker110 * @date 2016年12月28日 下午4:39:10 * @version 1.0  */
 public class OrderDaoImpl extends JDBCBase implements OrderDao {
 	
 	private UserDaoImpl userDaoImpl = new UserDaoImpl();

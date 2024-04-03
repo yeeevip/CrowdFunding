@@ -1,4 +1,4 @@
-package com.yeah.zhongchou.entity;/** * @author  Hacker110 * @date 2016年12月28日 上午10:52:42 * @version 1.0  */
+package com.yeah.zhongchou.entity;/** * @author https://www.yeee.vip  Hacker110 * @date 2016年12月28日 上午10:52:42 * @version 1.0  */
 public class InitiatorCompanyInfo {
 	private int project_id;
 	private String firmName;

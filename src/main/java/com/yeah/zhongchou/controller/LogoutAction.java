@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/** * @author  作者 E-mail: * @date 创建时间：2016年12月14日 上午11:03:34 * @version 1.0 * @parameter  * @since  * @return  */
+/** * @author https://www.yeee.vip https://www.yeee.vip  作者 E-mail: * @date 创建时间：2016年12月14日 上午11:03:34 * @version 1.0 * @parameter  * @since  * @return  */
 public class LogoutAction extends HttpServlet {
 
 	private static final long serialVersionUID = 2149515480031549266L;

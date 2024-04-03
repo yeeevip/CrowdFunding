@@ -1,4 +1,4 @@
-package com.yeah.zhongchou.dao;/** * @author  Hacker110 * @date 2016年12月18日 下午4:13:44 * @version 1.0  */
+package com.yeah.zhongchou.dao;/** * @author https://www.yeee.vip  Hacker110 * @date 2016年12月18日 下午4:13:44 * @version 1.0  */
 
 import java.sql.SQLException;
 import java.util.List;
@@ -7,7 +7,7 @@ import com.yeah.zhongchou.entity.ProjectRepay;
 
 /**
  * 项目回报设置接口类
- * @author Hacker110
+ * @author https://www.yeee.vip Hacker110
  *
  */
 public interface ProjectRepayDao {

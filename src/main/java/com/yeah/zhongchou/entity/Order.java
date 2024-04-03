@@ -1,4 +1,4 @@
-package com.yeah.zhongchou.entity;/** * @author  Hacker110 * @date 2016年12月28日 下午4:24:32 * @version 1.0  */
+package com.yeah.zhongchou.entity;/** * @author https://www.yeee.vip  Hacker110 * @date 2016年12月28日 下午4:24:32 * @version 1.0  */
 public class Order {
 	private int id;
 	private int user_id;

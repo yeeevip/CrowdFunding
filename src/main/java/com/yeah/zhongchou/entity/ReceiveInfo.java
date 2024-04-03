@@ -1,4 +1,4 @@
-package com.yeah.zhongchou.entity;/** * @author  Hacker110 * @date 2016年12月28日 下午6:32:44 * @version 1.0  */
+package com.yeah.zhongchou.entity;/** * @author https://www.yeee.vip  Hacker110 * @date 2016年12月28日 下午6:32:44 * @version 1.0  */
 public class ReceiveInfo {
 	private int user_id;
 	private String receiver;

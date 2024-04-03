@@ -12,7 +12,7 @@ import com.yeah.zhongchou.entity.ProjectRepay;
 import com.yeah.zhongchou.utils.JDBCUtils;
 import com.yeah.zhongchou.utils.Packager;
 
-/** * @author  Hacker110 * @date 2016年12月18日 下午4:16:46 * @version 1.0  */
+/** * @author https://www.yeee.vip  Hacker110 * @date 2016年12月18日 下午4:16:46 * @version 1.0  */
 public class ProjectRepayDaoImpl extends JDBCBase implements ProjectRepayDao {
 
 	@Override

@@ -18,7 +18,7 @@ import com.yeah.zhongchou.utils.JDBCUtils;
 import com.yeah.zhongchou.utils.Packager;
 
 
-/** * @author  作者 E-mail: * @date 创建时间：2016年12月14日 下午1:39:05 * @version 1.0 * @parameter  * @since  * @return  */
+/** * @author https://www.yeee.vip  作者 E-mail: * @date 创建时间：2016年12月14日 下午1:39:05 * @version 1.0 * @parameter  * @since  * @return  */
 public class CommentDaoImpl extends JDBCBase implements CommentDao {
 
 	@Override

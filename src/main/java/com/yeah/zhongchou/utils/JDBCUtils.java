@@ -9,7 +9,7 @@ import com.mchange.v2.c3p0.ComboPooledDataSource;
 
 /** 
  * 使用本类的方法，必须提供c3p0-copnfig.xml文件 
- * @author pplsunny 
+ * @author https://www.yeee.vip pplsunny 
  */  
 public class JDBCUtils {  
       

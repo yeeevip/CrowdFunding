@@ -4,7 +4,7 @@ import java.sql.SQLException;
 
 import com.yeah.zhongchou.entity.Projectcategory;
 
-/** * @author  作者 E-mail: * @date 创建时间：2016年12月15日 下午6:08:37 * @version 1.0 * @parameter  * @since  * @return  */
+/** * @author https://www.yeee.vip  作者 E-mail: * @date 创建时间：2016年12月15日 下午6:08:37 * @version 1.0 * @parameter  * @since  * @return  */
 public interface ProjectcategoryDao {
 	
 	/**
