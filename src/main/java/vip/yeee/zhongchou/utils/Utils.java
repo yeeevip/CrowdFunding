@@ -1,6 +1,4 @@
-package vip.yeee.zhongchou.utils;/**
- * @author https://www.yeee.vip  作者 E-mail: * @date 创建时间：2016年12月12日 下午4:19:57 * @version 1.0 * @parameter  * @since  * @return
- */
+package vip.yeee.zhongchou.utils;
 
 import java.io.File;
 import java.io.IOException;

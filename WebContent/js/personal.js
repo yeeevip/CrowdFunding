@@ -83,7 +83,7 @@ $(document).ready(function(){
 	//初始化日历
 	
 	calender('#calender').init({    
-	    //date : [2015,12,12], //设置默认显示年月日，默认当前年月日       
+	    //date : [2023,12,12], //设置默认显示年月日，默认当前年月日
 	    format : 'yyyy-MM-dd', //设置显示格式  
 	    button : false ,//是否显示按钮    
 	    left : 0, //追加left，默认0

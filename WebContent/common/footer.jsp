@@ -53,7 +53,7 @@
 									<a class="site_hoverCss3A siteIlB_item" target="_blank">一房网</a>
 									<a class="site_hoverCss3A siteIlB_item" target="_blank">快用苹果助手</a>
 							</div>
-				<p class="siteBFooter_p">©2016XXXXXXXXXXXXXXXXXXXXXXX 版权所有 京ICP证150145号 | 出版物经营许可证编号新出发（京）批字第直140141号 | 营业性演出许可证 编号：京市演2102 | 食品流通许可证 编号：SP1101051410311599 | 京公网安备11010502026064</p>
+				<p class="siteBFooter_p">©2023XXXXXXXXXXXXXXXXXXXXXXX 版权所有 京ICP证150145号 | 出版物经营许可证编号新出发（京）批字第直140141号 | 营业性演出许可证 编号：京市演2102 | 食品流通许可证 编号：SP1101051410311599 | 京公网安备11010502026064</p>
     </div>
 </div>
 
