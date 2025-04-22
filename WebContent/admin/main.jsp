@@ -67,7 +67,7 @@
 			<div class="admin_welcome c_display" id="a_shouye">
 				<div class="welinfo">
 			    	<b>Admin上午好，欢迎来到后台管理中心</b>
-			        (1324459373@qq.com)
+			        (394230080@qq.com)
 			        <a href="javascript:;">账号设置</a>
 			    </div>
 			    <div class="welinfo">
